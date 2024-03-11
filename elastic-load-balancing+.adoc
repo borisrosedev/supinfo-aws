@@ -1,0 +1,66 @@
+= Amazon Elastic Load Balancing (ELB) 
+
+== Définition 
+
+Amazon Elastic Load Balancing (ELB) est un service géré par Amazon Web Services (AWS) qui distribue automatiquement le trafic entrant sur plusieurs cibles, telles que:
+[%step]
+* des instances EC2, 
+* des conteneurs dans Amazon ECS 
+* des fonctions dans AWS Lambda, 
+=== ...
+
+afin d'optimiser la disponibilité et la tolérance aux pannes de vos applications. V
+
+== Types de Load Balancers :
+
+=== Classic Load Balancer (ELB) : 
+
+Il s'agit de la première génération de load balancers d'AWS, qui prend en charge la distribution de trafic sur les instances EC2 classiques.
+
+=== Application Load Balancer (ALB) : 
+
+C'est une deuxième génération de load balancers qui fonctionne au niveau de la couche 7 (application) et offre des fonctionnalités avancées pour les applications HTTP/HTTPS.
+
+=== Network Load Balancer (NLB) : 
+
+Il s'agit également d'une deuxième génération de load balancers, mais fonctionne au niveau de la couche 4 (transport) et est conçu pour gérer un trafic réseau TCP/UDP à très grande échelle, offrant une latence ultra-faible.
+
+== Fonctionnalités :
+
+=== Distribution de charge équilibrée : 
+
+ELB distribue automatiquement le trafic entrant entre plusieurs cibles, en fonction des règles de répartition définies.
+
+=== Haute disponibilité : 
+
+Les load balancers ELB sont hautement disponibles et redondants, répartissant le trafic entre plusieurs zones de disponibilité dans une région AWS.
+
+=== Sécurité : 
+
+Les load balancers ELB prennent en charge le chiffrement SSL/TLS et peuvent être intégrés avec AWS Web Application Firewall (WAF) pour la protection contre les attaques.
+
+=== Scalabilité automatique : 
+
+Les load balancers ELB sont automatiquement mis à l'échelle pour gérer la charge de trafic entrant, en fonction des règles de mise à l'échelle automatique définies.
+
+=== Health Checks : 
+
+ELB effectue régulièrement des vérifications d'état sur les cibles pour s'assurer qu'elles sont disponibles et répondent correctement.
+
+=== Gestion du trafic : 
+
+Les load balancers ALB et NLB prennent en charge le routage avancé du trafic en fonction de différents critères, tels que :
+[%step]
+* le chemin de l'URL, 
+* les en-têtes HTTP, 
+* etc.
+
+
+== Intégration avec d'autres services AWS :
+
+Les load balancers ELB peuvent être intégrés avec d'autres services AWS, tels que Auto Scaling, Amazon ECS, Amazon EC2, AWS Lambda, etc., pour une gestion automatique et évolutive de la capacité des applications.
+
+== Tarification :
+
+La tarification des load balancers ELB est basée sur le nombre d'heures d'utilisation et la quantité de données transférée à travers le load balancer.
+

@@ -1,0 +1,66 @@
+= Amazon S3 (Simple Storage Service) 
+
+== Introduction
+
+Amazon S3 (Simple Storage Service) est un service de stockage d'objets proposé par Amazon Web Services (AWS). 
+
+=== ...
+
+Il offre une capacité de stockage illimitée 
+
+=== ...
+
+Il permet aux utilisateurs de stocker et de récupérer des données depuis n'importe où sur le web. 
+
+
+
+== Stockage d'objets 
+
+Amazon S3 stocke les données sous forme d'objets, qui peuvent être des fichiers de n'importe quelle taille allant jusqu'à 5 téraoctets. 
+
+Chaque objet est stocké dans un conteneur appelé "bucket".
+
+== Buckets 
+
+Un bucket est un conteneur de stockage pour les objets Amazon S3. 
+
+=== ...
+
+Chaque bucket a un nom unique au niveau mondial et peut être configuré avec des règles de gestion, des politiques de sécurité, etc.
+
+== Politiques de sécurité 
+
+Les politiques de sécurité sont utilisées pour contrôler l'accès aux buckets et aux objets S3. 
+
+
+Ces politiques sont écrites en JSON et peuvent être appliquées au niveau du bucket ou au niveau de l'objet. 
+
+Elles définissent les autorisations pour différents utilisateurs, groupes d'utilisateurs ou applications.
+
+== IAM (Identity and Access Management) 
+
+IAM est le service d'AWS qui permet de gérer les identités et les accès aux ressources AWS. 
+
+Avec IAM, vous pouvez créer et gérer des utilisateurs, des groupes et des rôles IAM, et définir des politiques d'accès pour contrôler précisément les actions qu'ils peuvent effectuer sur les ressources AWS, y compris les buckets S3.
+
+
+== Accès Grant 
+
+L'accès Grant dans Amazon S3 fait référence aux permissions accordées à un utilisateur ou à une entité pour accéder à un bucket ou à un objet S3. Ces permissions sont définies à l'aide de politiques de sécurité ou de configurations d'accès dans IAM.
+
+== Stratégies de versioning 
+
+Amazon S3 prend en charge le versioning, ce qui permet de conserver plusieurs versions d'un objet dans un même bucket. Cela permet de récupérer des versions antérieures d'un objet en cas de besoin.
+
+
+== Chiffrement 
+
+Amazon S3 prend en charge le chiffrement des données au repos et en transit. Vous pouvez utiliser le chiffrement côté serveur ou côté client pour protéger vos données sensibles.
+
+== Contrôle d'accès aux données 
+
+Amazon S3 offre différentes options pour contrôler l'accès aux données, y compris:
+[%step]
+* les politiques de sécurité
+* les ACL (Access Control Lists)
+* les balises (tags) pour identifier et gérer les ressources.

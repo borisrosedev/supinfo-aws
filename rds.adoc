@@ -1,0 +1,14 @@
+== Amazon RDS (Relational Database Service):
+
+=== Définition: 
+
+RDS offre une gestion facile des bases de données relationnelles, prenant en charge plusieurs moteurs de bases de données tels que :
+[%step]
+* MySQL
+* PostgreSQL
+* Oracle
+* SQL Server.
+
+== Utilité: 
+
+RDS simplifie la configuration, l'exploitation et la mise à l'échelle des bases de données relationnelles dans le cloud.

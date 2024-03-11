@@ -1,0 +1,13 @@
+= Questions aléatoires 
+
+== Question 1
+
+Monsieur X veut déployer une application d'entreprise pour mieux savoir ce que ses salariés vivent quotidiennement en son sein. 
+
+Est-ce possible avec AWS ? Si oui via quel service particulièrement ?
+
+=== Réponse
+
+EC2 permet aux utilisateurs de louer des serveurs virtuels dans le cloud, appelés instances. Ces instances peuvent être configurées pour répondre aux besoins spécifiques d'une application.
+
+

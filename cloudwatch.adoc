@@ -1,0 +1,83 @@
+= Amazon CloudWatch 
+
+== Définition 
+Amazon CloudWatch est un service de surveillance et de gestion des logs fourni par Amazon Web Services (AWS). 
+
+=== ...
+
+Il offre une plateforme centralisée pour surveiller et gérer diverses ressources et applications sur AWS, ainsi que pour:
+[%step]
+* collecter, 
+* stocker 
+* analyser les logs et les métriques.
+
+
+
+== Surveillance des ressources AWS : 
+
+CloudWatch permet de surveiller les performances et l'état opérationnel de diverses ressources AWS, telles que:
+[%step]
+* les instances EC2, 
+* les groupes de sécurité, 
+* les instances de bases de données RDS, 
+* les services de conteneurs ECS ou EKS, 
+* les services de stockage S3, 
+* etc.
+
+== Collecte de métriques : 
+
+CloudWatch collecte automatiquement des métriques telles que:
+[%step]
+* l'utilisation du CPU, 
+* l'utilisation du réseau, 
+* les performances de la base de données, 
+* les statistiques de latence, 
+* etc.,
+
+=== ...
+
+pour les ressources surveillées.
+
+== Alarmes et notifications : 
+
+Vous pouvez configurer des alarmes basées sur les métriques CloudWatch pour surveiller les seuils prédéfinis et recevoir des notifications par e-mail ou par SMS lorsque les seuils sont dépassés.
+
+== Stockage de logs : 
+
+CloudWatch Logs permet de collecter, stocker et rechercher des logs provenant de différentes sources, telles que:
+[%step]
+* les instances EC2, 
+* les conteneurs, 
+* les services AWS, 
+* les applications personnalisées, 
+* etc.
+
+
+== Analyse de logs en temps réel : 
+
+CloudWatch Logs Insights offre des fonctionnalités d'analyse de logs en temps réel, ce qui permet d'interroger et d'analyser rapidement de grands volumes de logs pour identifier:
+[%step]
+* les tendances, 
+* les problèmes 
+* les anomalies.
+
+== Tableaux de bord personnalisés : 
+
+Vous pouvez créer des tableaux de bord personnalisés dans CloudWatch pour visualiser et surveiller les métriques et les logs importants pour votre application ou votre infrastructure.
+
+== Intégration avec d'autres services AWS : 
+
+CloudWatch s'intègre avec d'autres services AWS tels que AWS Lambda, Amazon API Gateway, Amazon RDS, Amazon EC2, etc., pour fournir une surveillance et une gestion complètes de votre environnement cloud.
+
+== Facturation basée sur l'utilisation :
+
+CloudWatch est facturé en fonction de l'utilisation, notamment:
+[%step]
+* le volume de métriques collectées, 
+* le volume de logs stockés
+* le volume d'alarmes actives. 
+
+=== ...
+
+Les tarifs varient en fonction de la région AWS dans laquelle votre application est déployée et des fonctionnalités spécifiques que vous utilisez.
+

@@ -1,0 +1,68 @@
+= Les fournisseurs d'identité fédérée
+
+== Définition
+
+Les fournisseurs d'identité fédérée (Federated Identity Providers en anglais) sont des services qui permettent à un système d'authentification centralisé (l'« identité fédérée ») d'être utilisé pour accéder à plusieurs applications ou systèmes. 
+
+=== ...
+
+Ils facilitent l'authentification des utilisateurs en leur permettant de s'authentifier avec des identifiants provenant de fournisseurs tiers.
+
+== Fonctionnement : 
+
+Les fournisseurs d'identité fédérée permettent à un utilisateur de s'authentifier auprès de plusieurs applications ou services en utilisant un ensemble d'identifiants (par exemple, un nom d'utilisateur et un mot de passe) provenant d'un fournisseur d'identité tiers. 
+
+Une fois authentifié, l'utilisateur peut accéder aux ressources autorisées sans avoir à se connecter séparément à chaque application.
+
+== Exemples de fournisseurs d'identité fédérée : 
+
+Il existe plusieurs fournisseurs d'identité fédérée populaires, notamment :
+
+=== Google: 
+
+Permet aux utilisateurs de s'authentifier avec leur compte Google.
+
+=== Facebook: 
+
+Permet aux utilisateurs de s'authentifier avec leur compte Facebook.
+
+=== Amazon Cognito: 
+
+Permet aux utilisateurs de s'authentifier avec leur compte Amazon, ainsi qu'avec d'autres fournisseurs d'identité fédérée configurés dans Amazon Cognito.
+
+=== Microsoft Azure Active Directory (AD): 
+
+Permet aux utilisateurs de s'authentifier avec leur compte Microsoft ou avec d'autres fournisseurs d'identité fédérée configurés dans Azure AD.
+
+== Okta, Auth0, Ping Identity, etc. : 
+
+Services d'authentification tiers qui peuvent être utilisés comme fournisseurs d'identité fédérée.
+
+== Interopérabilité : 
+
+Les fournisseurs d'identité fédérée reposent souvent sur des protocoles standard tels que OAuth, OpenID Connect et SAML (Security Assertion Markup Language) pour permettre l'interopérabilité entre différents systèmes d'authentification.
+
+== Avantages : 
+
+L'utilisation de fournisseurs d'identité fédérée présente plusieurs avantages, notamment :
+
+=== ...
+
+Simplification de l'expérience utilisateur en permettant une authentification unique (SSO - Single Sign-On) sur plusieurs applications.
+
+=== ...
+
+Réduction de la complexité pour les développeurs en externalisant la gestion des identités et des authentifications.
+
+=== ...
+
+Amélioration de la sécurité en centralisant la gestion des identités et en permettant l'utilisation de mécanismes d'authentification robustes fournis par les fournisseurs d'identité.
+
+== Sécurité : 
+
+Bien que l'utilisation de fournisseurs d'identité fédérée offre des avantages en termes de commodité et de sécurité, il est important de mettre en place des mesures de sécurité appropriées pour protéger les identités des utilisateurs, telles que:
+[%step]
+* l'utilisation de protocoles sécurisés
+* la gestion des autorisations et des privilèges
+* la surveillance et l'audit des activités d'authentification.
+

@@ -1,0 +1,83 @@
+= AWS Lambda
+
+== Définition
+
+AWS Lambda est un service de calcul sans serveur proposé par Amazon Web Services (AWS). 
+
+=== ...
+
+Il permet aux développeurs d'exécuter du code sans avoir à gérer des serveurs. 
+
+
+== Fonctionnement sans serveur : 
+
+Avec AWS Lambda, les développeurs peuvent exécuter du code en réponse à des événements, tels que:
+[%step]
+* des modifications de données dans une base de données
+* des mises à jour d'objets dans un bucket S3
+* des requêtes API Gateway
+* etc. 
+
+=== ...
+
+L'infrastructure sous-jacente est gérée par AWS, ce qui permet aux développeurs de se concentrer uniquement sur le code qu'ils souhaitent exécuter.
+
+
+== Langages de programmation pris en charge 
+AWS Lambda prend en charge plusieurs langages de programmation, dont:
+[%step]
+* Python
+* Node.js
+* Java
+* C# 
+*et d'autres encore. 
+
+=== ...
+
+Cela permet aux développeurs d'utiliser le langage avec lequel ils sont le plus à l'aise pour écrire leur code.
+
+== Tarification basée sur l'utilisation : 
+
+AWS Lambda adopte un modèle de tarification basé sur la consommation, ce qui signifie que les utilisateurs ne paient que pour le temps d'exécution de leur code et les ressources consommées pendant cette période. 
+
+=== ...
+
+Il n'y a pas de frais fixes associés à l'utilisation de Lambda.
+
+== Intégration avec d'autres services AWS : 
+
+Lambda peut être intégré avec d'autres services AWS pour créer des workflows et des applications sans serveur plus complexes. 
+
+Par exemple, il peut être utilisé avec;
+[%step]
+* Amazon S3
+* Amazon DynamoDB
+* Amazon API Gateway
+* Amazon SNS, 
+* Amazon SQS
+* etc.
+
+== Évolutivité automatique : 
+
+AWS Lambda est capable de s'adapter automatiquement à la charge de travail en fonction du nombre de requêtes entrantes.
+
+=== ...
+
+Il peut donc s'adapter à la demande sans nécessiter de configuration supplémentaire de la part de l'utilisateur.
+
+== Gestion des dépendances : 
+
+Les développeurs peuvent inclure des bibliothèques tierces et des dépendances dans leurs fonctions Lambda en les incluant dans leur package de déploiement. 
+
+=== ...
+
+Cela permet de créer des fonctions Lambda plus complexes et plus riches en fonctionnalités.
+
+== Sécurité : 
+
+AWS Lambda offre un environnement d'exécution sécurisé, isolé et sans état pour exécuter le code des développeurs.
+
+=== ...
+
+Les développeurs peuvent également utiliser les politiques IAM (Identity and Access Management) pour contrôler l'accès aux fonctions Lambda et aux autres ressources AWS.
+

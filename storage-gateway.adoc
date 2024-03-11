@@ -1,0 +1,72 @@
+= AWS Storage Gateway 
+
+== Définition 
+
+AWS Storage Gateway est un service de stockage hybride proposé par Amazon Web Services (AWS) qui permet aux entreprises de relier leur infrastructure sur site avec le stockage en nuage AWS. 
+
+== Fonctionnalités :
+
+=== Stockage hybride : 
+
+AWS Storage Gateway offre une solution de stockage hybride qui permet aux entreprises d'intégrer leur infrastructure sur site avec le stockage en nuage AWS.
+
+
+=== Intégration transparente : 
+
+
+Il fournit une intégration transparente entre votre infrastructure sur site et le stockage en nuage AWS, ce qui permet d'étendre facilement la capacité de stockage sans modifier les applications existantes.
+
+=== Protocoles pris en charge : 
+
+Storage Gateway prend en charge différents protocoles de stockage, notamment NFS (Network File System), SMB (Server Message Block) et iSCSI (Internet Small Computer System Interface).
+
+
+=== Optimisation des coûts : 
+
+Il offre des options de tarification flexibles basées sur l'utilisation, ce qui permet aux entreprises d'optimiser leurs coûts en fonction de leurs besoins de stockage.
+
+
+=== Gestion centralisée : 
+
+AWS Storage Gateway peut être géré à partir de la console AWS Management Console, offrant une interface centralisée pour la gestion du stockage sur site et en nuage.
+
+=== Sécurité : 
+
+Il intègre des fonctionnalités de sécurité telles que le chiffrement des données en transit et au repos, ainsi que le contrôle d'accès basé sur les rôles (IAM) pour assurer la confidentialité et l'intégrité des données.
+
+
+== Types de gateways :
+
+== File Gateway : 
+
+Permet aux applications sur site d'accéder au stockage en nuage AWS via le protocole NFS ou SMB. 
+
+
+Il apparaît comme un système de stockage NAS (Network Attached Storage) sur le réseau local.
+
+== Volume Gateway :
+
+=== Gateway-cached volumes : 
+
+Stocke les données principales sur site et réplique les données de sauvegarde dans le stockage en nuage AWS.
+
+=== Gateway-stored volumes : 
+
+Stocke l'ensemble des données sur site, mais prend des instantanés et les stocke de manière incrémentielle dans le stockage en nuage AWS.
+
+== Tape Gateway : 
+
+Offre une interface de stockage de bande virtuelle pour les sauvegardes sur bande, avec une intégration transparente au stockage en nuage AWS. 
+
+Les données sont stockées dans le stockage en nuage AWS sous forme de bandes virtuelles.
+
+== Cas d'utilisation :
+
+=== Archivage de données : 
+
+Storage Gateway est souvent utilisé pour l'archivage de données, permettant de stocker les données les moins utilisées dans le stockage en nuage AWS tout en offrant un accès transparent.
+
+
+=== Sauvegarde et récupération après sinistre : 
+
+Il est également utilisé pour les sauvegardes sur site, permettant de sauvegarder les données sur site dans le stockage en nuage AWS pour une récupération après sinistre efficace.

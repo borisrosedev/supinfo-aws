@@ -1,0 +1,81 @@
+= Amazon Elastic Block Store (EBS)
+
+== Définition 
+
+Amazon Elastic Block Store (EBS) est un service de stockage de blocs entièrement géré fourni par Amazon Web Services (AWS). 
+
+Il offre un stockage de données persistant pour les instances EC2 et est conçu pour les applications nécessitant des performances de stockage élevées, une disponibilité élevée et une durabilité des données.
+
+== Stockage de blocs persistant : 
+
+Amazon EBS offre un stockage de blocs persistant pour les instances EC2, ce qui permet de stocker des données qui doivent survivre à la terminaison d'une instance EC2.
+
+== Haute disponibilité et durabilité : 
+
+Amazon EBS offre une haute disponibilité et une durabilité des données en répliquant automatiquement les données sur plusieurs serveurs dans une zone de disponibilité AWS.
+
+== Différents types de volumes : 
+
+Amazon EBS propose plusieurs types de volumes adaptés à différents cas d'utilisation, notamment :
+
+=== SSD Provisioned IOPS (io1) : 
+ 
+Volumes SSD conçus pour les charges de travail nécessitant des performances d'E/S élevées et constantes.
+
+
+=== SSD généralisé (gp2) : 
+
+Volumes SSD offrant un bon équilibre entre performances, coût et capacité.
+
+
+== HDD Throughput Optimized (st1) : 
+
+Volumes HDD optimisés pour les charges de travail nécessitant un débit de données élevé.
+
+== HDD Cold (sc1) : 
+
+Volumes HDD économiques adaptés aux charges de travail nécessitant un accès occasionnel aux données.
+
+
+== Redimensionnement des volumes :
+
+Amazon EBS permet de redimensionner dynamiquement la taille des volumes sans interruption de service, ce qui permet d'adapter la capacité de stockage aux besoins changeants des applications.
+
+== Snapshots EBS : 
+
+Amazon EBS permet de créer des snapshots de volumes EBS, qui sont des copies ponctuelles des volumes stockées dans Amazon S3. 
+
+Les snapshots peuvent être utilisés pour :
+[%step]
+* sauvegarder des données, 
+* créer des volumes EBS à partir de snapshots 
+* la reprise après sinistre.
+
+== Sécurité et chiffrement : 
+
+Amazon EBS offre des fonctionnalités de sécurité telles que:
+[%step]
+* le chiffrement des données en transit et au repos,
+* l'intégration avec AWS IAM pour gérer l'accès aux volumes EBS.
+
+== Intégration avec d'autres services AWS :
+
+ Amazon EBS s'intègre avec d'autres services AWS tels que:
+ [%step]
+* Amazon EC2, 
+* Amazon RDS, 
+* Amazon EMR, 
+* etc., 
+
+=== ...
+
+pour fournir un stockage de blocs persistant aux instances et aux services AWS.
+
+== Tarification basée sur l'utilisation : 
+
+Amazon EBS est facturé en fonction de la capacité de stockage utilisée et du volume de données transférées, avec des tarifs différents selon le type de volume choisi.
+
+
+
+
+

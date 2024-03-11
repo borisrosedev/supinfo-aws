@@ -1,0 +1,81 @@
+= Amazon DynamoDB 
+
+== Définition
+
+Amazon DynamoDB  est un service de base de données NoSQL entièrement géré fourni par Amazon Web Services (AWS). 
+
+=== ...
+
+Il offre une solution de stockage de données flexible, évolutive et hautement disponible pour les applications web, mobiles, de jeux, IoT et autres applications nécessitant une faible latence et une mise à l'échelle transparente.
+
+
+
+== Modèle de données NoSQL : 
+
+DynamoDB est une base de données NoSQL, ce qui signifie qu'elle ne suit pas le modèle relationnel traditionnel utilisé par les bases de données SQL. 
+
+=== ...
+
+Au lieu de cela, elle stocke les données sous forme de paires clé-valeur (ou de documents dans le cas des tables supportant le modèle de données de documents).
+
+== Simplicité de gestion : 
+
+DynamoDB est entièrement géré par AWS, ce qui signifie que les tâches de gestion telles que la mise à l'échelle, la réplication, la sauvegarde, la restauration et la surveillance sont gérées automatiquement par AWS. 
+
+=== ...
+
+Les utilisateurs n'ont pas besoin de s'occuper de la gestion de l'infrastructure sous-jacente.
+
+== Haute disponibilité et durabilité : 
+
+DynamoDB est conçu pour offrir une disponibilité élevée et une durabilité des données grâce à la réplication synchronisée des données sur plusieurs zones de disponibilité au sein d'une région AWS.
+
+== Performances élevées et mise à l'échelle transparente : 
+
+DynamoDB offre des performances de latence faible et prévisible, même pour les charges de travail à forte demande, grâce à sa capacité à mettre à l'échelle automatiquement en fonction du trafic de l'application.
+
+== Modèles de données flexibles : 
+
+DynamoDB prend en charge plusieurs modèles de données, y compris:
+[%step]
+* les tables clé-valeur 
+* les tables de documents. 
+
+=== ...
+
+Il offre également la possibilité de stocker des données semi-structurées dans des attributs de type JSON.
+
+== Intégration avec d'autres services AWS : 
+
+
+DynamoDB s'intègre facilement avec d'autres services AWS tels que:
+[%step]
+* AWS Lambda, 
+* Amazon S3, 
+* Amazon Kinesis, 
+* Amazon EMR, 
+* etc., 
+
+=== ...
+
+pour construire des applications évolutives et hautement performantes.
+
+== Sécurité et contrôle d'accès : 
+
+DynamoDB offre des fonctionnalités de sécurité avancées, y compris:
+[%step]
+* le cryptage des données au repos et en transit, 
+* le contrôle d'accès basé sur les rôles (IAM), 
+* les politiques de contrôle d'accès, 
+* etc.
+
+== Tarification basée sur l'utilisation : 
+
+DynamoDB est facturé en fonction de l'utilisation réelle, y compris:
+[%step]
+* la capacité de stockage, 
+* le débit de lecture et d'écriture provisionné, 
+* les sauvegardes, 
+* les restaurations, 
+* les transferts de données
+* d'autres services associés.

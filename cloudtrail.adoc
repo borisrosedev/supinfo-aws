@@ -1,0 +1,74 @@
+= Amazon CloudTrail
+
+== Définition
+
+Amazon CloudTrail est un service proposé par Amazon Web Services (AWS) qui permet de surveiller et d'auditer l'activité des comptes AWS, des actions des utilisateurs, ainsi que les modifications apportées aux ressources. 
+
+== Fonctionnalités Principales :
+
+=== Journalisation des Appels d'API : 
+
+CloudTrail enregistre toutes les API AWS utilisées par un compte, y compris les actions effectuées, les ressources manipulées, et les adresses IP source des requêtes.
+
+
+=== Suivi des Modifications des Ressources : 
+
+CloudTrail enregistre toutes les modifications apportées aux ressources AWS, telles que la création, la modification et la suppression d'instances EC2, de buckets S3, de groupes de sécurité, etc.
+
+
+=== Suivi des Connexions et des Accès : 
+
+CloudTrail enregistre les connexions et les accès aux ressources AWS, y compris les tentatives de connexion réussies et infructueuses, ainsi que les utilisateurs et les rôles IAM impliqués.
+
+
+=== Intégration avec AWS Config : 
+
+CloudTrail peut être intégré avec AWS Config pour fournir des informations supplémentaires sur les modifications apportées aux ressources et aux configurations AWS.
+
+
+=== Intégration avec d'autres Services AWS :
+
+CloudTrail peut être intégré avec d'autres services AWS, tels que Amazon S3 pour le stockage des journaux, Amazon CloudWatch pour la surveillance et l'alerte, AWS Lambda pour l'automatisation des réponses aux événements, et AWS SNS pour la notification des événements.
+
+
+=== Gestion des Journaux :
+
+Les journaux CloudTrail sont stockés dans Amazon S3 et peuvent être conservés pendant une durée pouvant aller jusqu'à 7 ans.
+
+
+=== ...
+
+Vous pouvez choisir de crypter les journaux CloudTrail à l'aide de la cryptographie côté serveur (SSE-S3) ou de la cryptographie côté client (SSE-KMS).
+
+
+=== Sécurité et Conformité :
+
+CloudTrail aide à répondre aux exigences de conformité en fournissant des journaux d'audit détaillés qui peuvent être utilisés pour vérifier l'activité des comptes AWS.
+
+=== ...
+
+Il contribue à améliorer la sécurité en permettant la détection des activités malveillantes, l'analyse des tendances de sécurité, et la surveillance des changements de configuration.
+
+=== Cas d'Utilisation :
+
+=== Sécurité et Conformité : 
+
+CloudTrail est utilisé pour répondre aux exigences de conformité, détecter les activités malveillantes, et améliorer la sécurité globale des comptes AWS.
+
+=== Analyse et Surveillance : 
+
+CloudTrail fournit des informations précieuses pour:
+[%step]
+* l'analyse des tendances de sécurité, 
+* la surveillance des changements de configuration, 
+* la détection des problèmes opérationnels.
+
+
+=== Tarification :
+
+La tarification de CloudTrail est basée sur le nombre d'événements d'API enregistrés et sur la période de rétention des journaux.
+
+=== ...
+
+AWS propose une tarification à la demande et une tarification mensuelle pour les événements d'API.
+

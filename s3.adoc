@@ -1,0 +1,14 @@
+== Amazon S3 (Simple Storage Service):
+
+=== Définition: 
+
+S3 est un service de stockage d'objets qui permet aux utilisateurs de stocker et de récupérer n'importe quelle quantité de données à partir d'Internet.
+
+=== Utilité
+
+S3 est souvent utilisé pour:
+[%step]
+* le stockage de données
+* la sauvegarde
+* la distribution de contenu
+* sert de base à de nombreux services AWS.

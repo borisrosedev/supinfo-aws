@@ -1,0 +1,95 @@
+= AWS Well-Architected Framework. 
+
+== Introduction 
+Ce framework offre des conseils sur la création et la mise en œuvre d'architectures solides sur AWS en mettant l'accent sur cinq piliers principaux, dont la fiabilité est l'un des piliers clés.
+
+
+== Fiabilité (Reliability) :
+
+La fiabilité se concentre sur la capacité d'un système à récupérer rapidement d'éventuelles pannes et à maintenir des performances constantes en cas de défaillance.
+
+=== ...
+
+Les meilleures pratiques pour la fiabilité incluent la conception de systèmes qui peuvent tolérer les pannes en mettant en œuvre la redondance, la distribution géographique et l'automatisation des processus de récupération.
+
+=== ...
+
+Les services AWS comme :
+[%step]
+* AWS Elastic Load Balancing (ELB), 
+* Amazon Route 53, 
+* AWS Auto Scaling, 
+* AWS CloudWatch, 
+* Amazon Simple Storage Service (S3) 
+
+=== ...
+
+peuvent être utilisés pour améliorer la fiabilité.
+
+
+== Efficacité des performances (Performance Efficiency) :
+
+L'efficacité des performances se concentre sur l'utilisation optimale des ressources informatiques pour répondre aux exigences en matière de performances et de coûts.
+
+=== ...
+
+Cela implique la sélection des types d'instances appropriés, le dimensionnement correct des ressources, l'optimisation de la latence et de la capacité, et la surveillance continue des performances.
+
+=== ...
+
+Les services AWS comme Amazon EC2, Amazon RDS, Amazon DynamoDB, AWS Lambda, et Amazon CloudFront peuvent être utilisés pour améliorer l'efficacité des performances.
+
+
+== Sécurité (Security) :
+
+La sécurité implique la protection des données, des systèmes et des réseaux contre les menaces et les vulnérabilités.
+
+
+=== ...
+
+Cela inclut:
+[%step]
+* l'identification des besoins en matière de sécurité, 
+* la mise en œuvre de contrôles de sécurité appropriés, 
+* la gestion des accès, 
+* la surveillance des activités suspectes.
+
+
+=== ...
+
+Les services AWS comme AWS Identity and Access Management (IAM), Amazon Virtual Private Cloud (VPC), AWS Key Management Service (KMS), Amazon Inspector, et AWS Shield peuvent être utilisés pour renforcer la sécurité.
+
+
+== Évolutivité (Scalability) :
+
+L'évolutivité se concentre sur la capacité d'un système à s'adapter à la croissance de la demande sans compromettre les performances.
+
+=== ...
+
+Cela implique la conception de systèmes qui peuvent évoluer de manière transparente en ajoutant ou en supprimant des ressources en fonction des besoins, et en utilisant des architectures distribuées.
+
+=== ...
+
+Les services AWS comme Amazon EC2 Auto Scaling, Amazon S3, Amazon DynamoDB, Amazon RDS, et Amazon ElastiCache peuvent être utilisés pour améliorer l'évolutivité.
+
+== Rentabilité (Cost Optimization) :
+
+La rentabilité se concentre sur l'optimisation des coûts liés à l'exploitation et à la maintenance d'un système sur AWS.
+
+=== ...
+
+Cela implique la sélection des ressources les plus rentables, l'utilisation efficace des ressources disponibles, la surveillance des coûts et l'identification des opportunités d'optimisation.
+
+=== ...
+
+Les services AWS comme :
+[%step]
+* AWS Cost Explorer, 
+* AWS Budgets, 
+* AWS Trusted Advisor, 
+* AWS Compute Optimizer 
+
+=== ...
+
+peuvent être utilisés pour optimiser les coûts.
+

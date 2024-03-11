@@ -1,0 +1,78 @@
+= Amazon Redshift 
+
+== Définition
+
+Amazon Redshift est un service de base de données de data warehousing entièrement géré fourni par Amazon Web Services (AWS). 
+
+
+Il est conçu pour le traitement et l'analyse rapides de vastes ensembles de données, en fournissant des performances élevées, une évolutivité et une facilité d'utilisation pour les entrepôts de données.
+
+
+== Architecture Massivement Parallèle (MPP) : 
+
+Amazon Redshift utilise une architecture MPP qui répartit les données et les requêtes sur plusieurs nœuds de calcul pour un traitement parallèle, ce qui permet d'obtenir des performances élevées lors de l'analyse de grands ensembles de données.
+
+== Stockage en colonnes : 
+
+
+Redshift stocke les données en colonnes plutôt qu'en lignes, ce qui améliore l'efficacité des requêtes analytiques, car seules les colonnes nécessaires sont lues lors de l'exécution d'une requête.
+
+
+== Évolutivité automatique : 
+
+Amazon Redshift peut facilement évoluer pour prendre en charge la croissance des données et des charges de travail en ajoutant des nœuds à un cluster existant. 
+
+=== ...
+
+La mise à l'échelle peut se faire à la volée sans interruption de service.
+
+== Intégration avec d'autres services AWS : 
+
+Redshift s'intègre avec d'autres services AWS tels que:
+[%step]
+* Amazon S3, 
+* AWS Glue, 
+* AWS Data Pipeline, 
+* Amazon EMR, 
+* etc., 
+
+=== ...
+
+pour faciliter l'ingestion, le traitement et l'analyse des données.
+
+== Sécurité : 
+
+Amazon Redshift offre des fonctionnalités de sécurité avancées, notamment:
+[%step]
+* le chiffrement des données au repos et en transit, 
+* la gestion des clés de chiffrement, 
+* le contrôle d'accès basé sur les rôles (IAM),
+* etc.
+
+== Facilité d'utilisation : 
+
+Redshift est compatible avec les outils de business intelligence populaires tels que 
+[%step]
+* Tableau, 
+* MicroStrategy, 
+* Looker, 
+* etc. 
+
+=== ....
+
+Il prend en charge le langage SQL standard, ce qui facilite la migration et l'utilisation pour les utilisateurs familiers avec SQL.
+
+== Sauvegardes et restauration : 
+
+Amazon Redshift effectue automatiquement des sauvegardes régulières des clusters, et les utilisateurs peuvent effectuer des restaurations à n'importe quel moment, ce qui garantit la durabilité et la disponibilité des données.
+
+== Tarification basée sur l'utilisation : 
+
+Redshift est facturé en fonction de l'utilisation réelle, y compris:
+[%step]
+* la capacité de stockage, 
+* le nombre de nœuds
+* le temps d'utilisation des nœuds. 
+
+Les tarifs varient en fonction de la région AWS dans laquelle le cluster est déployé.
+

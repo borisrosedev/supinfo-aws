@@ -1,0 +1,78 @@
+= AWS Elastic Beanstalk
+
+== Définition
+
+AWS Elastic Beanstalk est un service d'orchestration d'applications proposé par Amazon Web Services (AWS). 
+
+=== ...
+
+Il facilite le déploiement, la gestion et la mise à l'échelle d'applications web et d'applications multi-tiers.
+
+== Facilité de déploiement : 
+
+Elastic Beanstalk permet aux développeurs de déployer rapidement des applications web en quelques clics ou en utilisant la ligne de commande AWS (CLI). 
+
+=== ...
+
+Il prend en charge plusieurs langages de programmation et frameworks, tels que Java, .NET, Node.js, Python, Ruby, PHP, etc.
+
+== Gestion automatisée des ressources : 
+
+Elastic Beanstalk gère automatiquement les ressources sous-jacentes nécessaires pour exécuter une application, telles que :
+[%step]
+* les instances EC2, 
+* les bases de données RDS
+* les équilibreurs de charge, 
+* les groupes de sécurité, 
+* etc. 
+
+=== ...
+
+Cela permet aux développeurs de se concentrer sur le développement de leur application plutôt que sur la gestion de l'infrastructure.
+
+== Configuration et personnalisation : 
+
+Bien qu'Elastic Beanstalk automatise la plupart des tâches de déploiement et de gestion des ressources, il offre également une flexibilité pour configurer et personnaliser les paramètres de déploiement, tels que : 
+[%step]
+* la taille des instances EC2
+* les versions des logiciels
+* les variables d'environnement, 
+* etc.
+
+== Mise à l'échelle automatique : 
+
+Elastic Beanstalk offre la possibilité de mettre à l'échelle automatiquement les ressources en fonction de la charge de trafic entrante. 
+
+=== ...
+
+Les développeurs peuvent configurer des politiques de mise à l'échelle automatique pour augmenter ou diminuer le nombre d'instances EC2 en réponse à la demande.
+
+== Intégration avec d'autres services AWS : 
+
+Elastic Beanstalk s'intègre facilement avec d'autres services AWS, tels que:
+
+* Amazon RDS pour les bases de données,
+* Amazon S3 pour le stockage d'objets, 
+* Amazon CloudWatch pour la surveillance, 
+* etc. 
+
+=== ...
+
+Cela permet aux développeurs de créer des applications web robustes et évolutives en utilisant une gamme complète de services AWS.
+
+== Contrôle total ou partiel : 
+
+Bien qu'Elastic Beanstalk automatise de nombreuses tâches de gestion des ressources, les développeurs ont toujours le contrôle total ou partiel sur l'infrastructure sous-jacente. 
+
+=== ...
+
+Ils peuvent choisir de laisser Elastic Beanstalk gérer entièrement l'infrastructure ou de prendre en charge certains aspects de la configuration et de la gestion.
+
+== Sécurité : 
+
+Elastic Beanstalk offre des fonctionnalités de sécurité intégrées, telles que:
+[%step]
+* la possibilité de configurer des groupes de sécurité pour contrôler l'accès aux ressources, 
+* la prise en charge du chiffrement SSL pour les communications sécurisées, 
+* etc.
+

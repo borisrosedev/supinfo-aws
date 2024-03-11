@@ -1,0 +1,96 @@
+= Amazon Elastic Container Service (Amazon ECS) 
+
+
+== Définition
+
+Amazon Elastic Container Service est un service de gestion de conteneurs entièrement géré fourni par Amazon Web Services (AWS). 
+
+Il permet aux développeurs de déployer, gérer et orchestrer des conteneurs Docker sur une infrastructure AWS.
+
+
+
+== Gestion de conteneurs Docker : 
+
+Amazon ECS permet de déployer et de gérer des applications conteneurisées basées sur Docker. 
+
+
+Les conteneurs offrent une isolation légère des applications, ce qui facilite le déploiement et la mise à l'échelle d'applications dans des environnements cloud.
+
+
+== Orchestration de conteneurs : 
+
+ECS offre des fonctionnalités d'orchestration de conteneurs pour simplifier le déploiement et la gestion d'applications conteneurisées sur une infrastructure AWS. 
+
+=== ...
+
+Il permet de spécifier les ressources nécessaires, de gérer les dépendances entre les conteneurs et de surveiller l'état des applications.
+
+== Intégration avec d'autres services AWS : 
+
+ECS s'intègre nativement avec d'autres services AWS tels que 
+[%step]
+* Amazon EC2, 
+* Amazon ECR (Elastic Container Registry), 
+* Amazon CloudWatch, 
+* Amazon VPC (Virtual Private Cloud), 
+* AWS IAM (Identity and Access Management), 
+* etc., 
+
+=== ...
+
+pour fournir une intégration transparente avec l'infrastructure et les services AWS existants.
+
+== Modèles de déploiement : 
+
+ECS prend en charge différents modèles de déploiement, notamment :
+
+=== Cluster d'instance EC2: 
+
+Les conteneurs sont exécutés sur des instances EC2 gérées par l'utilisateur.
+
+
+== Cluster Fargate: 
+
+Les conteneurs sont exécutés sur une plateforme serverless sans avoir à gérer les instances sous-jacentes.
+
+== Planification des tâches et des services : 
+
+ECS permet de planifier et de gérer des tâches et des services conteneurisés, ce qui permet de spécifier:
+[%step]
+* les règles de déploiement, 
+* les exigences de ressources, 
+* les stratégies de répartition de charge, 
+* etc.
+
+== Sécurité : 
+
+ECS offre des fonctionnalités de sécurité telles que:
+[%step]
+* l'intégration avec AWS IAM pour gérer l'accès aux ressources, 
+* la prise en charge des groupes de sécurité pour contrôler le trafic réseau  
+* le cryptage des données en transit et au repos.
+
+
+== Extensibilité : 
+
+ECS est hautement extensible et peut être intégré avec des outils et des services tiers tels que 
+[%step]
+* Kubernetes, 
+* AWS CodePipeline, 
+* AWS CodeBuild, 
+* etc., 
+
+=== ...
+
+pour automatiser et étendre les pipelines de déploiement et de gestion des conteneurs.
+
+
+== Tarification basée sur l'utilisation : 
+
+ECS est facturé en fonction de:
+[%step]
+l'utilisation, y compris le nombre de ressources de calcul utilisées, 
+* le stockage des images de conteneurs dans Amazon ECR, 
+* le trafic réseau sortant, 
+* etc.
+

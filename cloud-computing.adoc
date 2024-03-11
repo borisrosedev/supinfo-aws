@@ -1,0 +1,101 @@
+= Les concepts du cloud computing
+
+== Introduction
+Comprendre les concepts du cloud computing est crucial pour travailler efficacement avec les services cloud, y compris ceux d'Amazon Web Services (AWS).
+
+
+== Cloud Computing:
+
+=== Définition
+
+Le cloud computing consiste à fournir des ressources informatiques, telles que:
+[%step]
+* des serveurs 
+* des bases de données
+* du stockage
+* des réseaux 
+* des logiciels
+
+=== ... 
+Tout cela  via Internet et à la demande.
+
+=== ...
+
+Plutôt que de posséder et de gérer physiquement ces ressources, les utilisateurs les louent à des fournisseurs de services cloud comme AWS.
+
+
+== Modèles de service cloud: 
+
+AWS propose différents modèles de service, notamment :
+
+=== Infrastructure as a Service (IaaS): 
+
+Fournit des ressources informatiques, sur Internet, telles que:
+[%step]
+* des machines virtuelles
+* du stockage
+
+
+=== Platform as a Service (PaaS): 
+
+Fournit des plateformes de développement et de déploiement d'applications sur Internet, sans se soucier de l'infrastructure sous-jacente.
+
+=== Software as a Service (SaaS): 
+
+Fournit des logiciels hébergés sur Internet et accessibles via un navigateur web.
+
+
+
+== Elasticity:
+
+=== Définition: 
+
+L'élasticité dans le cloud computing fait référence à la capacité d'ajuster automatiquement la capacité informatique en fonction de la demande. 
+
+link:./elasticity.html[En savoir plus]
+
+=== Exemple 
+
+Les utilisateurs peuvent augmenter ou réduire la capacité de calcul en fonction du trafic de leur site web sans avoir à provisionner ou à libérer manuellement des ressources.
+
+
+=== Exemple AWS
+
+AWS Elastic Compute Cloud (EC2) permet aux utilisateurs de redimensionner rapidement leur capacité de calcul en fonction de la demande.
+
+
+== Scalability:
+
+=== Définition: 
+
+La scalabilité dans le cloud computing se réfère à la capacité d'un système à gérer une augmentation ou une diminution de la charge de travail de manière transparente et efficace. 
+
+=== ...
+
+Cela peut être réalisé horizontalement en ajoutant ou en supprimant des instances de serveur, ou verticalement en augmentant ou en diminuant les ressources d'une seule instance.
+
+link:./scalability.html[En savoir plus]
+
+=== Exemple AWS
+
+AWS Auto Scaling permet aux utilisateurs de configurer automatiquement la scalabilité horizontale pour leurs ressources AWS, telles que les instances EC2, en fonction de métriques de performance spécifiques.
+
+
+== Pay-as-You-Go Model:
+
+=== Définition
+
+Le modèle de paiement à l'utilisation dans le cloud computing signifie que les utilisateurs ne paient que pour les ressources qu'ils consomment réellement, en fonction de leur utilisation et de leur durée d'utilisation.
+Exemple AWS: AWS propose un modèle de tarification à l'usage pour la plupart de ses services, ce qui permet aux utilisateurs de payer uniquement ce qu'ils consomment, sans engagement à long terme ni frais initiaux.
+
+== Shared Responsibility Model:
+
+=== Définition: 
+
+Dans le modèle de responsabilité partagée, le fournisseur de services cloud (comme AWS) est responsable de la sécurité de l'infrastructure cloud sous-jacente, tandis que les utilisateurs sont responsables de la sécurité de leurs données et de leurs applications.
+
+=== Exemple AWS
+
+AWS fournit une infrastructure cloud sécurisée, tandis que les utilisateurs doivent mettre en œuvre des mesures de sécurité appropriées pour protéger leurs données et leurs applications sur cette infrastructure.
+
+

@@ -1,0 +1,50 @@
+= Cours 
+
+== Module 1
+
+- link:./cloud-computing-types.html[Les différents types de Cloud Computing]
+- link:./cloud-computing-advantages.html[Les avantages du Cloud Computing]
+- link:./cloud-adoption-framework.html[ASW Cloud Adoption Framework]
+- link:./price+.html[La philosophie des prix chez AWS]
+- link:./regions.html[L'infrastructure et la géographie de AWS ]
+
+== Module 2
+
+=== Module 2 Partie 1
+
+- link:./ec2+.html[AWE EC2]
+- link:./lambda.html[AWS Lambda]
+- link:./elastic-beanstalk.html[AWS Elastic Beanstalk]
+- link:./s3+.html[AWS S3]
+- link:./efs.html[Amazon EFS]
+- link:./glacier.html[Amazon Glacier]
+- link:./ebs.html[Amazon EBS]
+
+=== Module 2 Partie 2
+
+- link:./rds+.html[Amazon RDS]
+- link:./dynamo-db.html[Amazon Dynamo DB]
+- link:./redshift.html[Amazon Redshift]
+- link:./aurora.html[Amazon Aurora]
+
+=== Module 2 Partie 3
+
+- link:./autoscaling.html[Auto Scaling]
+- link:./elastic-load-balancing+.html[Elastic Load Balancing]
+- link:./cloudwatch.html[Amazon CloudWatch]
+
+== Module 3
+
+- link:./shared-responsability.html[Le modèle de responsabilité partagée d'AWS]
+- link:./iam+.html[AWS IAM]
+- link:./security-credentials.html[Les certificats de sécurité]
+- link:./truster-advisor.html[AWS Trusted Advisor]
+- link:./security-compliance.html[La conformité aux normes de sécurité]
+- link:./day-1-best-practices.html[Les meilleures pratiques lors de la création de votre compate AWS]
+
+== Module 4
+
+- link:./architecture-pilars.html[Les pilliers d'une solution cloud bien architecturée]
+
+== Module 5
+

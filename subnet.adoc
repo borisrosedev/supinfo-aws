@@ -1,0 +1,72 @@
+= Un subnet 
+
+== Introduction
+
+
+Dans Amazon Web Services (AWS), un subnet (ou sous-réseau) est une subdivision d'un réseau virtuel (VPC - Virtual Private Cloud) qui permet d'organiser et de gérer les ressources de manière plus efficace. 
+
+
+== Définition :
+
+Un subnet AWS est une plage d'adresses IP dans le CIDR (Classless Inter-Domain Routing) qui peut être utilisée dans un VPC AWS.
+
+=== ...
+
+Les subnets sont des entités logiques qui découpent un VPC en segments plus petits, ce qui permet de contrôler le trafic réseau et de segmenter les ressources pour des raisons de sécurité ou de gestion.
+
+== Caractéristiques principales :
+
+===  CIDR Block : 
+
+Chaque subnet est défini par un bloc CIDR (par exemple, 10.0.0.0/24) qui spécifie la plage d'adresses IP disponibles dans le subnet.
+
+
+===  Zone de disponibilité : 
+
+Les subnets sont généralement associés à une seule zone de disponibilité (AZ) dans une région AWS spécifique. 
+
+Cela permet de distribuer les ressources dans plusieurs AZ pour améliorer la haute disponibilité et la résilience des applications.
+
+
+=== Route table : 
+
+Chaque subnet est associé à une table de routage qui définit comment le trafic réseau est dirigé à l'intérieur et à l'extérieur du subnet.
+
+=== Sécurité : 
+
+Les subnets peuvent être associés à des groupes de sécurité AWS, qui contrôlent les règles de pare-feu et les autorisations réseau pour les instances EC2 dans le subnet.
+
+== Types de subnets :
+
+=== Public Subnet : 
+
+Un subnet public est accessible depuis Internet. Il est généralement utilisé pour héberger des ressources accessibles publiquement, comme les serveurs Web ou les passerelles Internet.
+
+=== Private Subnet : 
+
+Un subnet privé n'est pas accessible directement depuis Internet. Il est généralement utilisé pour héberger des ressources qui n'ont pas besoin d'une connectivité directe à Internet, comme les bases de données ou les systèmes internes.
+
+== Cas d'utilisation :
+
+Les subnets AWS sont largement utilisés pour organiser les ressources dans un VPC et pour segmenter les réseaux en fonction des besoins de sécurité et de gestion.
+
+=== ...
+
+Ils sont utilisés dans la configuration des applications multi-tiers, où les différentes couches de l'application sont déployées dans des subnets distincts pour des raisons de sécurité et de performance.
+
+
+=== Considérations de conception :
+
+Lors de la conception d'une architecture réseau AWS, il est important de planifier soigneusement la disposition des subnets en fonction des exigences de sécurité, de disponibilité et de performances de l'application.
+
+=== ...
+
+Il est recommandé de créer au moins deux subnets dans chaque zone de disponibilité (une publique et une privée) pour améliorer la résilience et la haute disponibilité des applications.
+
+
+
+
+
+
+
+

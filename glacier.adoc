@@ -1,0 +1,69 @@
+= Amazon Glacier 
+
+
+== Introduction
+
+Amazon Glacier est un service de stockage d'objets à long terme proposé par Amazon Web Services (AWS). 
+
+
+=== ...
+
+Il est conçu pour stocker des données qui ne sont pas fréquemment consultées et qui sont généralement conservées à des fins de conformité, de sauvegarde et de conservation à long terme. 
+
+
+== Stockage d'objets à long terme : 
+
+Amazon Glacier est conçu pour stocker des données à long terme qui ne sont pas nécessaires régulièrement, mais qui doivent être conservées pour des raisons de conformité, de sauvegarde ou d'archivage.
+
+== Faible coût : 
+
+Amazon Glacier offre un coût de stockage extrêmement bas par rapport à d'autres services de stockage AWS. 
+
+Cependant, les données stockées dans Glacier ne sont pas immédiatement accessibles comme c'est le cas avec Amazon S3 (Simple Storage Service).
+
+== Durabilité et fiabilité : 
+
+Amazon Glacier est conçu pour offrir une durabilité élevée de vos données grâce à la réplication des données sur plusieurs installations AWS dans une région donnée.
+
+== Différentes classes de stockage : 
+
+
+Amazon Glacier propose différentes classes de stockage en fonction des exigences de disponibilité et de récupération :
+
+=== Amazon Glacier Standard: 
+Accès rapide aux archives, idéal pour les données qui nécessitent un accès dans les 3 à 5 heures.
+
+=== Amazon Glacier Expedited: 
+Accès très rapide aux archives, idéal pour les données qui nécessitent un accès en quelques minutes.
+
+=== Amazon Glacier Bulk: 
+Accès lent et économique aux archives, idéal pour les données qui ne nécessitent pas d'accès rapide.
+
+
+== Modèles de tarification : 
+
+Amazon Glacier propose un modèle de tarification basé sur:
+[%step]
+* le volume de données stockées, 
+* la durée de stockage
+* la classe de stockage choisie. 
+
+=== ...
+
+Les tarifs varient en fonction de la région AWS dans laquelle les données sont stockées.
+
+
+== API et intégration : 
+
+Amazon Glacier fournit une API RESTful pour la gestion des archives et des travaux de stockage. 
+
+Il peut être intégré à d'autres services AWS tels que:
+[%step]
+* Amazon S3, 
+* AWS Storage Gateway, 
+* etc.
+
+== Gestion des politiques de conservation : 
+
+Amazon Glacier permet de définir des politiques de conservation pour automatiser la suppression des données obsolètes ou périmées après une certaine période de rétention.
+

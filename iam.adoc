@@ -1,0 +1,12 @@
+= IAM (Identity and Access Management):
+
+== Définition: 
+
+IAM gère l'accès aux services AWS de manière sécurisée:
+[%step]
+* en définissant des utilisateurs, des groupes et des rôles
+* en attribuant des autorisations.
+
+== Utilité
+
+IAM garantit que les utilisateurs ont uniquement l'accès nécessaire aux ressources AWS, renforçant ainsi la sécurité.

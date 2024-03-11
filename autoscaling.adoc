@@ -1,0 +1,11 @@
+= Auto Scaling
+
+== Définition
+
+Auto Scaling ajuste automatiquement la capacité des instances EC2 en fonction de la demande. 
+
+Il peut augmenter ou diminuer le nombre d'instances en fonction de règles prédéfinies.
+
+== Utilité
+
+Auto Scaling garantit que la capacité de calcul s'adapte dynamiquement à la charge de travail, améliorant l'efficacité et la résilience.

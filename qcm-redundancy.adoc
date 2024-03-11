@@ -1,0 +1,131 @@
+= QCM sur l'architecture redondante de AWS
+
+== Question 1
+
+Compléter cette phrase.
+
+Dans le cadre de l'architecture AWS (Amazon Web Services), une architecture redondante désigne une conception qui intègre des éléments de ... ou de ... pour assurer la ... et la ... des systèmes. 
+
+=== Réponse
+
+Dans le cadre de l'architecture AWS (Amazon Web Services), une architecture redondante désigne une conception qui intègre des éléments de duplication ou de réplication pour assurer la disponibilité et la résilience des systèmes. 
+
+
+== Question 2 
+
+Quel est l'objectif principal de cette architecture ?
+
+
+=== Réponse
+
+L'objectif principal est d'éviter les interruptions de service dues à
+* des pannes matérielles
+* des erreurs humaines
+* des catastrophes naturelles
+* d'autres incidents.
+
+
+== Question 3
+
+
+AWS propose des ... de ... répartis ... appelés "zones de disponibilité" (AZs). 
+
+
+=== Réponse
+
+AWS propose des centres de données répartis géographiquement appelés "zones de disponibilité" (AZs). 
+
+
+=== Question 4
+
+Monsieur X, vendeur d'art utilise, rappelons-le un modèle de services PaaS avec AWS.
+
+Il laisse d'une part son développeur s'occuper de l'application d'art et d'autre part AWS s'occuper de l'infrastructure sous-jacente.
+
+Il a entendu dire que l'AZ eu-west-3 est défaillante. Anxieux, il se dit que son application ne doit plus être servi sur Internet. A-t-il raison ?
+
+=== Réponse
+
+Une architecture redondante utilise plusieurs AZs pour distribuer les charges de travail et les données, garantissant que même en cas de défaillance d'une zone, les services restent disponibles.
+
+
+== Question 5
+
+Compléter la phrase.
+
+Les ... de charge ... le trafic entrant entre plusieurs ... ou serveurs, assurant une répartition égale de la charge et permettant de rediriger le trafic vers des ... saines en cas de défaillance d'une instance.
+
+=== Réponse 
+
+Les équilibreurs de charge distribuent le trafic entrant entre plusieurs instances ou serveurs, assurant une répartition égale de la charge et permettant de rediriger le trafic vers des instances saines en cas de défaillance d'une instance.
+
+== Question 6
+
+Complétez la phrase.
+
+La réplication des données permet de ... les données ... dans plusieurs régions ou ... pour garantir leur ... et leur ... en cas de défaillance d'un emplacement.
+
+=== Réponse 
+
+La réplication des données permet de dupliquer les données critiques dans plusieurs régions ou AZs pour garantir leur disponibilité et leur intégrité en cas de défaillance d'un emplacement.
+
+
+
+== Question 7
+
+Monsieur X, vendeur d'art, utilisant le modèle de services PaaS d'AWS, se demande maintenant avec raison ce qui garantit que toutes ses données liées à la plateforme sont sauvegardées en cas de sinistre. Que pouvez-vous lui répondre ?
+
+=== Réponsse
+
+Utilisation de services comme :
+* Amazon S3 (Simple Storage Service) pour la sauvegarde des données
+* AWS Backup pour automatiser et gérer les sauvegardes des ressources AWS, garantissant ainsi la récupération en cas de sinistre.
+
+
+=== Question 8
+
+AWS propose des services de base de données haute disponibilité tels que:
+[%step]
+* Amazon RDS (...) Multi-AZ
+* Amazon Aurora avec ... automatique des données pour assurer la disponibilité et la résilience des bases de données.
+
+=== Réponse 
+
+AWS propose des services de base de données haute disponibilité tels que:
+[%step]
+* Amazon RDS (Relational Database Service) Multi-AZ
+* Amazon Aurora avec réplication automatique des données pour assurer la disponibilité et la résilience des bases de données.
+
+
+== Question 9
+
+Quelle est la bonne réponse ?
+
+Une architecture redondante dans le cadre de l'architecture AWS vise à :
+[%step]
+* minimiser les temps d'arrêt (A)
+* garantir la disponibilité continue des services (B)
+* assurer la résilience face aux incidents (C)
+* La B et la C sont bonnes (D)
+* Toutes sont bonnes (E)
+
+=== Réponse
+
+Toutes sont bonnes 
+
+
+== Question 10
+
+Quels sont les mécanismes utilisés pour cela ?
+
+=== Réponse
+
+[%step]
+* la réplication des données
+* la distribution de la charge
+* la redondance des composants critiques.
+
+
+
+
+

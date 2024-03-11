@@ -1,0 +1,17 @@
+= AWS Support
+
+== AWS Support Plans
+
+Niveaux de support proposés par AWS, offrant un accès à l'assistance technique, des ressources de formation et d'autres avantages.
+
+== AWS Trusted Advisor
+
+Outil automatisé qui examine l'environnement AWS et fournit des recommandations pour:
+[%step]
+* optimiser les performances
+* améliorer la sécurité
+* réduire les coûts.
+
+== AWS Forums and Documentation
+
+Ressources en ligne pour obtenir de l'aide de la communauté AWS et accéder à la documentation officielle.

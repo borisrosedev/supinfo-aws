@@ -1,0 +1,77 @@
+= Les systèmes de stockage sur site (on-premises)
+
+== Définition
+
+Les systèmes de stockage sur site (on-premises) sont des infrastructures de stockage de données qui sont hébergées et gérées localement par une organisation sur ses propres serveurs et dans ses propres centres de données, par opposition aux solutions de stockage cloud qui sont gérées par des fournisseurs de services cloud externes. 
+
+
+== Contrôle total : 
+
+Les systèmes de stockage sur site offrent un contrôle complet sur les données, les performances et la sécurité, car ils sont gérés directement par l'organisation au sein de ses propres locaux. 
+
+Cela peut être particulièrement important pour les entreprises ayant des exigences strictes en matière de confidentialité, de conformité ou de réglementation.
+
+== Personnalisation : En gérant leur propre infrastructure de stockage, les organisations ont la possibilité de personnaliser leurs systèmes en fonction de leurs besoins spécifiques en termes de performances, de capacité, de redondance, etc. 
+
+Cela peut inclure:
+[%step]
+* le choix des types de disques
+* des configurations RAID
+* des protocoles de réseau
+* etc.
+
+== Latence faible : 
+
+Les systèmes de stockage sur site peuvent offrir des performances plus rapides et une latence plus faible pour les applications critiques, car les données sont stockées localement et ne nécessitent pas de traverser un réseau distant.
+
+== Investissement initial élevé :
+
+La mise en place et la gestion de systèmes de stockage sur site nécessitent un investissement initial élevé en termes:
+[%step]
+* d'achat de matériel
+* de logiciels
+* de maintenance et de gestion des centres de données. 
+
+=== ...
+
+Cela peut représenter un fardeau financier important pour de nombreuses organisations.
+
+== Évolutivité limitée :
+
+Les systèmes de stockage sur site peuvent avoir une évolutivité limitée en raison:
+[%step]
+* des contraintes physiques des serveurs
+* des centres de données locaux. 
+
+=== ...
+
+L'ajout de capacité de stockage supplémentaire peut nécessiter des investissements supplémentaires en matériel et en infrastructure.
+
+== Gestion des sauvegardes et de la reprise après sinistre : 
+
+Les organisations doivent mettre en place leurs propres stratégies de sauvegarde et de reprise après sinistre pour protéger leurs données en cas:
+[%step]
+* de panne matérielle
+* de catastrophe naturelle 
+* d'incident de sécurité. 
+
+=== ...
+
+Cela peut nécessiter la mise en place de:
+[%step]
+* processus de sauvegarde réguliers
+* de sites de reprise après sinistre
+* etc.
+
+== Complexité de gestion : 
+
+La gestion des systèmes de stockage sur site peut être complexe et exiger des compétences spécialisées en matière:
+[%step]
+* d'administration système, 
+* de gestion des données
+* de sécurité informatique.
+
+=== ...
+
+Cela peut nécessiter la formation et l'embauche de personnel qualifié.
+

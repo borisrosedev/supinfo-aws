@@ -1,0 +1,116 @@
+= AWS Academy Cloud Foundations
+
+== Définition
+
+AWS Academy Cloud Foundations est un programme d'enseignement développé par Amazon Web Services (AWS) pour aider les étudiants à acquérir les compétences de base nécessaires pour travailler avec les services cloud d'AWS. 
+
+=== Quels sont les services cloud d'AWS ?
+
+link:aws-services-1.adoc[En savoir plus]
+
+== AWS Academy Cloud Foundations
+
+Ce programme est conçu pour les établissements d'enseignement supérieur, tels que:
+[%step]
+- les universités
+- les collèges techniques,
+- les organisations qui cherchent à former leur personnel sur les bases du cloud computing avec AWS.
+
+
+=== Qu'est-ce que le cloud computing ?
+
+voir plus loin 
+
+
+== Points clés à connaître sur AWS Academy Cloud Foundations
+
+
+=== Objectif
+
+Le programme vise à fournir une compréhension approfondie des concepts fondamentaux du **cloud computing** et **des services AWS**. 
+
+
+=== ...
+Il permet aux participants de développer des compétences pratiques pour travailler avec les services cloud, notamment :
+[%step]
+* le stockage
+* le calcul
+* la mise en réseau
+* la sécurité
+* la tarification.
+
+
+=== Contenu du cours
+
+Le contenu du cours est développé par AWS et est constamment mis à jour pour refléter les dernières innovations et bonnes pratiques de l'industrie. 
+
+
+=== ...
+
+Il comprend des modules sur des sujets tels que:
+[%step]
+* Les concepts de cloud computing
+* Les services de base d'AWS (par exemple, Amazon S3, Amazon EC2), 
+* La sécurité dans le cloud
+* La tarification
+* La gestion des coûts
+* Les meilleures pratiques pour la conception d'architectures cloud.
+
+
+=== Livraison du cours
+
+Le programme peut être dispensé de différentes manières y compris:
+[%step]
+* en classe, 
+* en ligne 
+* en mode hybride
+
+
+=== ...
+Les établissements partenaires peuvent utiliser les ressources fournies par AWS, y compris:
+[%step]
+* Les présentations
+* Les supports de cours
+* Les laboratoires pratiques 
+* Les examens de certification.
+
+
+=== Certification
+
+Bien que le programme AWS Academy Cloud Foundations ne soit pas axé sur la certification, il fournit une base solide pour les étudiants qui souhaitent passer des certifications AWS plus avancées, telles que:
+[%step]
+* AWS Certified Solutions Architect
+* AWS Certified Developer 
+* AWS Certified SysOps Administrator.
+
+
+=== Partenariat avec les établissements d'enseignement
+
+AWS travaille en partenariat avec des établissements d'enseignement à travers le monde pour offrir ce programme. 
+
+
+=== ...
+
+Les établissements partenaires ont accès à:
+[%step]
+* des ressources pédagogiques
+* à un soutien technique 
+* à des opportunités de développement professionnel pour les enseignants.
+
+
+=== Avantages pour les étudiants et les organisations: 
+
+Les étudiants qui suivent avec succès le programme acquièrent des compétences recherchées dans le domaine du cloud computing, ce qui peut améliorer leurs perspectives d'emploi. 
+
+
+=== ...
+
+Pour les organisations, cela signifie qu'elles peuvent former leur personnel sur les bases du cloud computing avec AWS, ce qui peut augmenter leur efficacité opérationnelle et leur agilité.
+
+
+== En résumé
+
+En résumé, AWS Academy Cloud Foundations est un programme éducatif développé par AWS pour fournir aux étudiants et aux professionnels une base solide dans le domaine du cloud computing avec AWS. 
+
+
+Il est conçu pour être flexible et adaptable aux besoins des établissements d'enseignement et des organisations.

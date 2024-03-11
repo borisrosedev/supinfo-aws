@@ -1,0 +1,91 @@
+= La sécurité et la conformité
+
+== Introduction
+
+La sécurité et la conformité sont des préoccupations majeures pour les entreprises qui utilisent des services cloud comme Amazon Web Services (AWS). 
+
+
+=== ...
+
+AWS propose une gamme de fonctionnalités et de services pour aider les clients à atteindre et à maintenir la conformité avec diverses normes de sécurité et de confidentialité. 
+
+== Conformité réglementaire :
+
+AWS offre une grande variété de programmes de conformité réglementaire couvrant un large éventail de normes et de réglementations, y compris :
+
+
+[%step]
+* HIPAA (Health Insurance Portability and Accountability Act)
+* PCI DSS (Payment Card Industry Data Security Standard)
+* SOC (System and Organization Controls) 1, 2 et 3
+* ISO/IEC 27001, 27017 et 27018
+* FedRAMP (Federal Risk and Authorization Management Program)
+* GDPR (General Data Protection Regulation)
+* FIPS (Federal Information Processing Standards)
+* NIST (National Institute of Standards and Technology) SP 800-171, SP 800-53, etc.
+
+
+
+== AWS Artifact :
+
+AWS Artifact est un portail en ligne qui fournit un accès à la documentation sur la conformité et à des rapports d'audit générés automatiquement pour différentes normes de sécurité et de confidentialité.
+
+== Services de sécurité AWS :
+
+AWS propose une gamme de services de sécurité qui aident à protéger les données et les ressources des clients. 
+
+=== ...
+
+Cela inclut des services tels que:
+[%step]
+* AWS Identity and Access Management (IAM), 
+* AWS Key Management Service (KMS), 
+* Amazon Inspector, 
+* AWS Firewall Manager, 
+* Amazon GuardDuty, 
+* AWS Config, 
+etc.
+
+=== ...
+
+Ces services aident à sécuriser l'accès aux ressources, à chiffrer les données, à surveiller les activités suspectes et à détecter les violations de sécurité.
+
+
+== Chiffrement :
+
+AWS propose des fonctionnalités de chiffrement pour protéger les données en transit et au repos. 
+
+Cela inclut:
+[%step]
+* le chiffrement côté serveur (SSE), 
+* le chiffrement côté client, 
+* le chiffrement de données EBS (Elastic Block Store), 
+* le chiffrement de données S3 (Simple Storage Service), 
+* etc.
+
+== Gestion des accès et des identités :
+
+AWS IAM permet de gérer:
+[%step]
+* les utilisateurs, 
+* les groupes
+* les rôles
+
+=== ...
+
+AWS IAM permet également de définir des politiques d'accès granulaires pour contrôler l'accès aux ressources AWS.
+
+== Analyse et conformité continue :
+
+AWS offre des outils comme AWS Config et Amazon Macie pour surveiller en continu la conformité des configurations et des données, et pour détecter les écarts par rapport aux politiques de sécurité.
+
+
+== Formation et certifications :
+
+AWS propose des programmes de formation et des certifications pour aider les professionnels de la sécurité à acquérir les compétences nécessaires pour concevoir, déployer et gérer des environnements AWS sécurisés et conformes.
+
+
+
+
+
+

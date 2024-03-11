@@ -1,0 +1,83 @@
+= Amazon Relational Database Service (Amazon RDS) 
+
+== Introduction
+
+Amazon Relational Database Service est un service de base de données relationnelle entièrement géré fourni par Amazon Web Services (AWS). 
+
+=== ...
+
+Il permet aux utilisateurs de déployer, de gérer et de mettre à l'échelle facilement des bases de données relationnelles dans le cloud AWS, sans avoir à se soucier de la gestion de l'infrastructure sous-jacente.
+
+
+
+== Prise en charge de plusieurs moteurs de base de données : 
+
+Amazon RDS prend en charge plusieurs moteurs de bases de données relationnelles, notamment:
+[%step]
+* MySQL 
+* PostgreSQL
+* Oracle
+* Microsoft SQL Server
+* MariaDB 
+* Amazon Aurora. 
+
+=== ...
+
+Cela permet aux utilisateurs de choisir le moteur de base de données qui convient le mieux à leurs besoins.
+
+
+== Gestion automatisée de la base de données : 
+
+Amazon RDS gère automatiquement les tâches de gestion de base de données courantes telles que:
+[%step]
+* les sauvegardes, 
+* les mises à jour logicielles, 
+* les correctifs de sécurité, 
+* la surveillance des performances, 
+* la réplication des données 
+* la récupération en cas de panne.
+
+== Facilité de déploiement : 
+
+Amazon RDS permet de déployer facilement une nouvelle instance de base de données en quelques clics via la console de gestion AWS ou à l'aide d'outils d'automatisation tels que AWS CloudFormation.
+
+== Mises à l'échelle automatiques : 
+
+Amazon RDS offre des options de mise à l'échelle automatique pour ajuster automatiquement la capacité de calcul et de stockage en fonction des besoins de charge de travail, ce qui garantit des performances optimales et une disponibilité élevée de la base de données.
+
+== Sécurité : 
+
+Amazon RDS offre des fonctionnalités de sécurité avancées telles que :
+[%step]
+* le cryptage des données au repos et en transit, 
+* la gestion des clés de chiffrement, 
+* le contrôle d'accès basé sur les rôles (IAM), 
+* les groupes de sécurité réseau, 
+* etc.
+
+== Haute disponibilité : 
+
+Amazon RDS offre des options de déploiement multi-zones pour une haute disponibilité. 
+
+Cela permet de répliquer automatiquement les données dans différentes zones de disponibilité AWS pour une redondance et une résilience élevées.
+
+== Surveillance et métriques : 
+
+Amazon RDS offre des fonctionnalités de surveillance et de suivi des performances intégrées, y compris 
+[%step]
+* la visualisation des métriques de performances clés, 
+* les journaux d'événements, 
+* les alertes personnalisées, 
+* etc.
+
+== Tarification basée sur l'utilisation : 
+[%step]
+* Amazon RDS est facturé en fonction de l'utilisation réelle, y compris:
+[%step]
+* la capacité de calcul, 
+* la capacité de stockage, 
+* les sauvegardes, 
+* les restaurations, 
+* les transferts de données
+* d'autres services associés.
+

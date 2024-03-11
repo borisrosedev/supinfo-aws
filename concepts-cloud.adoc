@@ -1,0 +1,82 @@
+= Les concepts du cloud dans le cadre d'Amazon Web Services (AWS) 
+
+== Introduction
+Les concepts du cloud dans le cadre d'Amazon Web Services (AWS) couvrent un large éventail de sujets. 
+
+== Régions et Zones de Disponibilité:
+
+=== Définition: 
+
+AWS divise son infrastructure mondiale en régions géographiques, chacune comprenant plusieurs zones de disponibilité. 
+
+=== ...
+
+Chaque région est une entité géographique indépendante, tandis que les zones de disponibilité (Availability Zones) sont des centres de données distincts à l'intérieur d'une région.
+
+=== Utilité: 
+
+La répartition des applications sur plusieurs zones de disponibilité améliore la tolérance aux pannes et garantit une disponibilité élevée.
+
+
+== Services Principaux:
+
+=== Définition
+
+AWS offre une gamme étendue de services cloud, couvrant le calcul, le stockage, la base de données, le réseau, l'IA, la sécurité, l'analytique, etc.
+
+=== Exemples: 
+
+[%step]
+Amazon EC2 (Compute), 
+Amazon S3 (Stockage), 
+Amazon RDS (Base de données), 
+Amazon VPC (Réseau), 
+Amazon AI/ML (Intelligence Artificielle/Machine Learning), 
+AWS Lambda (Calcul sans serveur)
+, etc.
+
+
+
+== Amazon EC2 (Elastic Compute Cloud):
+
+=== Définition: 
+
+EC2 permet aux utilisateurs de louer des serveurs virtuels dans le cloud, appelés instances. Ces instances peuvent être configurées pour répondre aux besoins spécifiques d'une application.
+
+=== Utilité: 
+
+EC2 est fondamental pour le déploiement d'applications, qu'il s'agisse:
+[%step]
+* de sites web
+* d'applications d'entreprise
+* de traitement par lots,
+* etc.
+
+== Amazon S3 (Simple Storage Service):
+
+link:./s3.html[En savoir plus]
+
+== Amazon RDS (Relational Database Service):
+
+link:./rds.html[En savoir plus]
+
+== Amazon VPC (Virtual Private Cloud):
+
+link:./vpc.html[En savoir plus]
+
+== IAM (Identity and Access Management):
+
+link:./iam.html[En savoir plus]
+
+
+== Elastic Load Balancing (ELB):
+
+link:./elastic-load-balancing.html[En savoir plus]
+
+== Auto Scaling:
+
+link:./autoscaling.html[En savoir plus]
+
+== AWS CloudFormation:
+
+link:./cloudformation.html[En savoir plus]

@@ -1,0 +1,91 @@
+= AWS IAM (Identity and Access Management) 
+
+
+
+== Introduction
+
+AWS IAM (Identity and Access Management) est un service proposé par Amazon Web Services (AWS) qui permet de gérer les identités et les accès aux ressources AWS de manière sécurisée. 
+
+=== ...
+
+IAM permet de définir et de gérer des utilisateurs, des groupes et des rôles, ainsi que de configurer des politiques de contrôle d'accès pour définir précisément ce que les utilisateurs peuvent faire dans AWS. 
+
+
+== Fonctionnalités Principales :
+
+=== Gestion des Utilisateurs et des Groupes : 
+
+
+IAM permet de créer et de gérer des utilisateurs individuels et des groupes d'utilisateurs. 
+
+=== ...
+
+Les utilisateurs peuvent être associés à des groupes pour faciliter la gestion des autorisations.
+
+
+== Gestion des Rôles : 
+
+IAM permet de créer et de gérer des rôles qui peuvent être temporairement assumés par des utilisateurs, des services ou des ressources AWS pour accéder à d'autres ressources.
+
+
+== Contrôle d'Accès Basé sur les Politiques (Policies) : 
+
+IAM utilise des politiques de contrôle d'accès pour définir précisément les autorisations et les restrictions sur les ressources AWS. 
+
+=== ...
+
+Les politiques sont écrites en JSON et attachées aux utilisateurs, aux groupes ou aux rôles.
+
+
+=== Audit et Suivi : 
+
+IAM fournit des journaux d'audit qui enregistrent toutes les actions effectuées par les utilisateurs, les groupes et les rôles IAM, permettant ainsi un suivi détaillé de l'activité et de la conformité.
+
+
+== Utilisation :
+
+=== Accès à la Console AWS : 
+
+IAM est utilisé pour accorder l'accès à la console AWS aux utilisateurs et pour définir précisément les actions qu'ils peuvent effectuer dans la console.
+
+== Accès Programmable : 
+
+IAM est utilisé pour gérer les autorisations des applications et des services AWS utilisant les API AWS, en créant des clés d'accès et des secrets d'API sécurisés.
+
+
+=== Contrôle d'Accès aux Ressources : 
+
+IAM est utilisé pour définir qui peut accéder à quelles ressources AWS, et quelles actions ils peuvent effectuer sur ces ressources.
+
+
+== Scénarios d'Utilisation :
+
+=== Sécurité et Conformité : 
+
+IAM est utilisé pour garantir la sécurité et la conformité en contrôlant et en auditant l'accès aux ressources AWS.
+
+
+=== Gestion des Coûts : 
+
+IAM est utilisé pour limiter l'accès à certaines ressources AWS afin de contrôler les coûts associés à l'utilisation de ces ressources.
+
+== Gestion des Identités : 
+
+IAM est utilisé pour gérer les identités et les accès des utilisateurs, des groupes et des rôles dans un environnement AWS.
+
+
+== Sécurité :
+
+IAM utilise des mesures de sécurité telles que l'authentification multi-facteurs (MFA), le chiffrement des clés d'accès, et la rotation régulière des clés d'accès pour renforcer la sécurité des comptes IAM.
+
+=== ...
+
+IAM est intégré à d'autres services AWS, tels que AWS CloudTrail pour la journalisation des actions IAM et AWS Key Management Service (KMS) pour le chiffrement des clés d'accès.
+
+== Tarification :
+
+IAM est inclus dans le modèle de tarification d'AWS et ne génère pas de frais supplémentaires. 
+
+Les utilisateurs paient uniquement pour les ressources AWS qu'ils utilisent conformément aux autorisations définies dans IAM.
+
+

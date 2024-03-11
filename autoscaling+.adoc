@@ -1,0 +1,73 @@
+=  L'auto-scaling avec AWS (Amazon Web Services) 
+
+== Définition 
+
+L'auto-scaling avec AWS (Amazon Web Services)  est une fonctionnalité permettant de gérer automatiquement la capacité des ressources informatiques en fonction de la demande de votre application.
+
+=== ...
+
+Cette fonctionnalité est particulièrement utile dans des environnements où la charge de travail peut varier de manière significative au fil du temps, comme c'est souvent le cas avec les applications Web, les applications mobiles et d'autres charges de travail dynamiques.
+
+
+== Groupes d'Auto Scaling : 
+
+AWS Auto Scaling utilise des groupes d'Auto Scaling pour organiser et gérer les instances EC2 (Elastic Compute Cloud) ou d'autres ressources, telles que :
+[%step]
+* des instances ECS (Elastic Container Service), 
+* des groupes de tâches ECS, 
+* des groupes de tâches Fargate, 
+* etc. 
+
+=== ...
+
+Un groupe d'Auto Scaling est un ensemble d'instances identiques ou de types d'instances similaires qui fonctionnent ensemble pour gérer la charge de travail.
+
+== Déclencheurs de mise à l'échelle automatique : 
+
+Les déclencheurs de mise à l'échelle automatique définissent les conditions qui déclenchent l'ajout ou la suppression d'instances dans un groupe d'Auto Scaling. 
+
+=== ...
+
+Vous pouvez définir des déclencheurs basés sur :
+[%step]
+* la demande de CPU, 
+* la demande de mémoire, 
+* le trafic réseau, 
+* etc.
+
+== Politiques de mise à l'échelle automatique : 
+
+Les politiques de mise à l'échelle automatique définissent comment AWS Auto Scaling doit réagir lorsque les déclencheurs sont activés. 
+
+=== ...
+
+Par exemple, vous pouvez définir une politique pour ajouter une instance lorsque la demande de CPU dépasse un certain seuil pendant une certaine période de temps.
+
+== Mise à l'échelle réactive et prédictive : 
+
+
+AWS Auto Scaling prend en charge la mise à l'échelle réactive et prédictive. 
+
+=== ...
+
+La mise à l'échelle réactive répond aux modifications de la charge de travail en temps réel, tandis que la mise à l'échelle prédictive utilise des analyses et des modèles pour anticiper les changements de charge et ajuster la capacité en conséquence.
+
+== Intégration avec d'autres services AWS : 
+
+AWS Auto Scaling peut être intégré avec d'autres services AWS, tels que:
+[%step]
+* Amazon CloudWatch pour surveiller les métriques et déclencher des actions de mise à l'échelle, 
+* Amazon Elastic Load Balancer pour distribuer le trafic entre les instances, 
+* etc.
+
+== Coût optimisé : 
+
+L'utilisation de l'auto-scaling avec AWS peut contribuer à l'optimisation des coûts en permettant de provisionner la capacité uniquement lorsque cela est nécessaire, et de la réduire lorsque la demande diminue. 
+
+=== ...
+
+Cela permet :
+[%step]
+* d'éviter le surdimensionnement des ressources 
+* de réduire les coûts associés.
+

@@ -1,0 +1,30 @@
+= Amazon EC2 (Elastic Compute Cloud):
+
+== Définition: 
+
+EC2 permet aux utilisateurs de louer des serveurs virtuels dans le cloud, appelés instances. 
+
+Ces instances peuvent être configurées pour répondre aux besoins spécifiques d'une application.
+
+== Utilité: 
+
+EC2 est fondamental pour le déploiement d'applications, qu'il s'agisse:
+[%step]
+* de sites web
+* d'applications d'entreprise
+* de traitement par lots,
+* etc.
+
+== Question 1
+
+EC2 permet aux utilisateurs de louer des serveurs ... appelés ...
+
+=== Réponse
+
+EC2 permet aux utilisateurs de louer des serveurs virtuels dans le cloud, appelés instances. 
+
+
+
+
+
+

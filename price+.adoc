@@ -1,0 +1,93 @@
+= La philosophie de tarification d'Amazon Web Services (AWS) 
+
+== Introduction
+
+La philosophie de tarification d'Amazon Web Services (AWS) repose sur plusieurs principes fondamentaux qui visent à offrir aux clients une flexibilité maximale tout en garantissant une transparence et une prévisibilité des coûts. 
+
+== Paiement à l'utilisation 
+
+AWS adopte un modèle de tarification à l'utilisation, ce qui signifie que les clients ne paient que pour les services qu'ils consomment réellement, sans engagement à long terme ni frais initiaux.
+
+== Tarification granulaire 
+
+AWS propose une tarification granulaire, où les services sont facturés en fonction de différentes unités de mesure telles que:
+[%step]
+* le temps d'utilisation
+* la capacité de stockage
+* la bande passante
+* etc. 
+
+=== ...
+
+Cela permet aux clients de payer uniquement pour les ressources qu'ils consomment et de les ajuster selon leurs besoins.
+
+
+== Élasticité des ressources :
+
+AWS offre une élasticité des ressources, ce qui signifie que les clients peuvent facilement augmenter ou diminuer leurs ressources en fonction de la demande, ce qui leur permet d'optimiser les coûts en fonction de leurs besoins réels.
+
+== Transparence des prix : 
+
+AWS s'efforce de fournir une transparence totale des prix en fournissant:
+[%step]
+* des outils de calcul des coûts
+* des calculatrices de tarification
+* des rapports détaillés sur l'utilisation des ressource
+
+=== ...
+
+permettant ainsi aux clients de comprendre et de prévoir leurs coûts avec précision.
+
+== Innovation continue et optimisation des coûts : 
+
+AWS s'engage à proposer en permanence de nouveaux services et fonctionnalités tout en cherchant à optimiser les coûts pour ses clients. Cela peut se traduire par des réductions de prix, des options tarifaires plus flexibles ou des programmes incitatifs pour encourager l'utilisation efficace des ressources.
+
+== Éléments du coût total de possession (TCO) :
+
+Le coût total de possession (TCO) est un concept important à comprendre lors de l'évaluation de l'impact financier d'une solution informatique, y compris l'utilisation des services AWS. Voici les principaux éléments du TCO à prendre en compte lors de l'analyse des coûts liés à l'utilisation des services AWS :
+
+== Coûts directs :
+
+Il s'agit des coûts directs associés à l'utilisation des services AWS, tels que les frais d'utilisation des instances EC2, les frais de stockage S3, les frais de transfert de données, etc.
+
+== Coûts indirects : 
+
+Ces coûts incluent les coûts indirects liés à l'exploitation de l'infrastructure AWS, tels que les frais de personnel, les coûts de gestion des opérations, les coûts de migration et d'intégration, etc.
+
+== Coûts d'opportunité : 
+
+Il s'agit des coûts associés aux opportunités perdues résultant de l'utilisation de ressources AWS plutôt que d'autres alternatives, telles que l'exploitation d'une infrastructure sur site ou l'utilisation d'autres fournisseurs de services cloud.
+
+== Coûts de transition : 
+
+Ces coûts comprennent les coûts associés à la migration vers AWS, tels que les coûts de formation, les coûts de migration des données, les coûts de modification des applications, etc.
+
+En comprenant ces différents éléments du coût total de possession (TCO), les organisations peuvent évaluer de manière exhaustive l'impact financier de l'utilisation des services AWS et prendre des décisions éclairées en matière de planification budgétaire et d'optimisation des coûts.
+
+
+== Questions
+
+== Q1
+
+Vrai ou Faux ?
+
+Les clients AWS ne paient que pour les services qu'ils consomment réellement, sans engagement à long terme mais avec des frais initiaux.
+
+=== Réponse
+
+Faux :
+
+Les clients ne paient que pour les services qu'ils consomment réellement, sans engagement à long terme ni frais initiaux.
+
+== Q2 
+
+Monsieur Y dit que AWS n'a pas de politique de transparence des prix. Que pouvez-vous lui répondre ?
+
+=== Réponse
+
+AWS s'efforce de fournir une transparence totale des prix en fournissant:
+* des outils de calcul des coûts
+* des calculatrices de tarification
+* des rapports détaillés sur l'utilisation des ressource
+
+== Q3

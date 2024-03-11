@@ -1,0 +1,24 @@
+= La scalabilité
+
+== Définition
+
+La scalabilité se réfère à la capacité d'un système à s'adapter et à gérer une augmentation de la charge de travail de manière transparente. 
+
+=== ...
+
+Cela implique généralement d'ajuster la taille des ressources (comme les serveurs, les bases de données, etc.) en fonction de la demande, que ce soit:
+[%step]
+* en augmentant la capacité pour gérer une charge de travail croissante 
+* en diminuant la capacité lorsqu'elle n'est plus nécessaire.
+
+=== ...
+
+Dans le contexte d'AWS, la scalabilité peut être réalisée à travers divers services tels que :
+[%step]
+* EC2 (Elastic Compute Cloud) pour les serveurs virtuels,
+* RDS (Relational Database Service) pour les bases de données relationnelles,
+* d'autres services de stockage et de calcul qui peuvent être ajustés dynamiquement en fonction des besoins.
+
+=== ...
+
+link:./courses.html[Revenir aux Cours]

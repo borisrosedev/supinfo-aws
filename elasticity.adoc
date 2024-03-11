@@ -1,0 +1,25 @@
+= Élasticité 
+
+== Définition
+
+L'élasticité est un sous-ensemble de la scalabilité qui se concentre spécifiquement sur la capacité d'un système à s'adapter automatiquement à la demande en temps réel. 
+
+=== ...
+
+Cela signifie que les ressources peuvent être ajoutées ou supprimées de manière dynamique en réponse aux fluctuations de la charge de travail, sans intervention humaine.
+
+=== ...
+
+Dans le contexte d'AWS, l'élasticité est souvent mise en œuvre à travers des fonctionnalités telles que :
+[%step]
+* l'autoscaling, qui permet aux utilisateurs de configurer des règles pour ajuster automatiquement la capacité des ressources en fonction des métriques de performance telles que :
+[%step]
+* l'utilisation CPU
+* le nombre de requêtes, 
+* etc.
+
+
+=== ...
+
+link:./courses.html[Revenir aux Cours]
+

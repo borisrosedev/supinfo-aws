@@ -1,0 +1,68 @@
+= Amazon Elastic File System (Amazon EFS)
+
+
+Amazon Elastic File System (Amazon EFS) est un service de stockage de fichiers entièrement géré fourni par Amazon Web Services (AWS). 
+
+Il permet aux utilisateurs de créer et de gérer des systèmes de fichiers partagés et évolutifs qui peuvent être montés sur plusieurs:
+[%step]
+* instances EC2,
+* conteneurs Docker 
+* serveurs locaux.
+
+
+== Stockage de fichiers partagés : 
+
+Amazon EFS offre un stockage de fichiers partagés hautement évolutif et entièrement géré, permettant à plusieurs instances EC2 ou conteneurs Docker de partager et d'accéder aux mêmes données.
+
+== Évolutivité automatique : 
+
+Amazon EFS s'ajuste automatiquement en fonction de la taille des données stockées et du nombre de demandes d'accès concurrentes, sans nécessiter de provisionnement préalable ni de gestion manuelle de la capacité de stockage.
+
+== Performances élevées : 
+
+Amazon EFS offre des performances élevées pour les charges de travail nécessitant un accès concurrentiel à de grands ensembles de données, grâce à une architecture distribuée qui permet une montée en charge horizontale transparente.
+
+
+
+== Compatibilité avec NFS : 
+
+Amazon EFS prend en charge le protocole de partage de fichiers Network File System (NFS), ce qui permet aux instances EC2 Linux de monter les systèmes de fichiers EFS comme des systèmes de fichiers locaux.
+
+== Gestion des données : 
+
+Amazon EFS offre des fonctionnalités de sauvegarde, de restauration et de réplication des données pour assurer la durabilité et la disponibilité des données stockées.
+
+== Intégration avec d'autres services AWS : 
+
+
+Amazon EFS s'intègre nativement avec d'autres services AWS tels que:
+[%step]
+* Amazon EC2, 
+* Amazon ECS, 
+* AWS Lambda, 
+* AWS Batch, 
+* AWS Fargate, 
+* etc., 
+
+=== ...
+
+pour fournir un stockage de fichiers partagés à ces services.
+
+== Options de confidentialité : 
+
+Amazon EFS offre des options de confidentialité pour contrôler l'accès aux données stockées, y compris:
+[%step]
+* les listes de contrôle d'accès (ACL) 
+* les politiques de sécurité basées sur IAM.
+
+== Tarification basée sur l'utilisation : 
+
+Amazon EFS est facturé en fonction de l'utilisation réelle, y compris:
+[%step]
+* la capacité de stockage utilisée
+* le volume de données transférées.
+
+
+
+
+

@@ -1,0 +1,93 @@
+= Amazon Virtual Private Cloud (VPC) 
+
+== Introduction 
+
+
+Amazon Virtual Private Cloud (VPC) est un service qui vous permet de créer un réseau privé virtuel dans le cloud d'Amazon Web Services (AWS). 
+
+Cela vous permet de contrôler votre propre espace réseau virtuel, y compris:
+[%step]
+* la sélection de votre propre plage d'adresses IP, 
+* la création de sous-réseaux, 
+* la configuration de tables de routage et de passerelles,
+* le contrôle du trafic entrant et sortant. 
+
+
+== Définition et Caractéristiques Principales :
+
+=== Isolation Logique : 
+
+AWS VPC fournit une isolation logique entre les différentes ressources et instances dans le cloud AWS, similaire à la configuration d'un réseau privé dans votre propre centre de données.
+
+
+=== Contrôle Total : 
+
+Vous avez un contrôle total sur votre réseau virtuel, y compris la création de sous-réseaux, la configuration des règles de sécurité et des groupes de sécurité, la définition de vos propres tables de routage, etc.
+
+
+=== Personnalisation : 
+
+Vous pouvez personnaliser les paramètres de votre VPC, tels que les plages d'adresses IP, les tables de routage, les paramètres DHCP, etc.
+
+
+=== Connectivité : 
+
+AWS VPC offre des options pour connecter votre réseau VPC à votre réseau sur site via VPN (Virtual Private Network) ou connexion directe AWS Direct Connect.
+
+=== Haute Disponibilité : 
+
+Vous pouvez déployer vos ressources dans différentes zones de disponibilité (AZ) au sein d'une région AWS pour améliorer la haute disponibilité et la tolérance aux pannes.
+
+
+=== Sécurité : Vous pouvez utiliser des groupes de sécurité pour contrôler le trafic entrant et sortant de vos instances EC2, et configurer des listes de contrôle d'accès réseau (ACL) au niveau du sous-réseau.
+
+
+== Composants d'un VPC :
+
+=== Sous-réseaux (Subnets) : 
+
+Les sous-réseaux divisent une plage d'adresses IP en segments plus petits, permettant de regrouper et de segmenter les ressources.
+
+
+=== Route Tables (Tables de Routage) : 
+
+Les tables de routage déterminent où diriger le trafic réseau à l'intérieur du VPC. Chaque sous-réseau est associé à une table de routage.
+
+=== Routeurs : 
+
+Les routeurs dirigent le trafic entre les sous-réseaux et entre le VPC et Internet.
+
+=== Passerelles Internet (Internet Gateways) : 
+
+Les passerelles Internet permettent aux ressources dans le VPC d'accéder à Internet et aux ressources Internet d'accéder au VPC.
+
+== Passerelles VPN (Virtual Private Network) : 
+
+Les passerelles VPN permettent d'établir une connexion VPN sécurisée entre votre réseau sur site et votre VPC AWS.
+
+== Élasticité (Elastic IP Addresses) : 
+
+Les adresses IP élastiques peuvent être attribuées à des instances EC2 dans votre VPC, et peuvent être associées à des ressources même en cas de redémarrage.
+
+
+== Scénarios d'utilisation :
+
+=== Hébergement d'Applications Web : 
+
+Vous pouvez héberger des applications web dans un VPC et contrôler l'accès à ces applications en utilisant des groupes de sécurité et des ACL.
+
+
+=== Déploiement de Bases de Données : 
+
+Vous pouvez déployer des bases de données dans un VPC pour bénéficier de la sécurité et de l'isolement.
+
+=== Connectivité Hybride : 
+
+Vous pouvez utiliser un VPC pour établir une connectivité hybride entre votre réseau sur site et le cloud AWS en utilisant des passerelles VPN ou Direct Connect.
+
+=== Tarification :
+
+AWS VPC est gratuit. 
+
+Vous ne payez que pour les ressources que vous utilisez à l'intérieur de votre VPC, comme les instances EC2, les passerelles Internet, les passerelles VPN, etc.
+

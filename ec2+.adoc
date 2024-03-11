@@ -1,0 +1,73 @@
+= Amazon Elastic Compute Cloud (EC2)
+
+
+== Introduction
+
+Amazon Elastic Compute Cloud (EC2) est l'un des services phares d'Amazon Web Services (AWS) et l'un des services de calcul les plus utilisés dans le cloud. 
+
+=== ...
+
+Il offre une capacité de calcul évolutive dans le cloud, permettant aux utilisateurs de provisionner et de gérer des instances de serveurs virtuels selon leurs besoins. 
+
+
+== Provisionnement d'instances :
+
+Amazon EC2 permet aux utilisateurs de provisionner rapidement et facilement des instances de serveurs virtuels (connus sous le nom d'« instances EC2 ») dans le cloud. 
+
+
+Les instances EC2 peuvent être lancées à partir d'une vaste gamme de types d'instances, chacun offrant différentes combinaisons :
+[%step]
+* de capacités de calcul
+* de mémoire, de stockage 
+* de réseau 
+
+=== ...
+
+pour répondre aux besoins spécifiques de la charge de travail.
+
+
+== Choix de systèmes d'exploitation :
+
+Les utilisateurs d'EC2 peuvent choisir parmi une variété de systèmes d'exploitation (Linux, Windows, etc.) et de distributions, ainsi que des images pré-configurées optimisées pour différents cas d'utilisation, comme:
+[%step]
+* les bases de données
+* les serveurs d'applications
+* les conteneurs
+* etc.
+
+== Mise à l'échelle automatique :
+
+EC2 offre des fonctionnalités de mise à l'échelle automatique, permettant aux utilisateurs de gérer dynamiquement la capacité de calcul en fonction de la demande. 
+
+=== ...
+
+Vous pouvez définir des règles d'auto-scaling pour ajouter ou supprimer des instances EC2 en fonction de métriques de performances prédéfinies, comme l'utilisation du CPU, le trafic réseau, etc.
+
+
+== Gestion des instances :
+
+EC2 offre des outils de gestion flexibles pour surveiller, gérer et diagnostiquer les instances EC2, y compris des métriques de performances en temps réel, des journaux d'activité, des alarmes, des snapshots d'instances, etc. 
+
+
+=== ...
+
+Les utilisateurs peuvent également utiliser des services complémentaires tels que Amazon CloudWatch pour surveiller les performances et AWS Systems Manager pour automatiser les tâches de gestion.
+
+== Sécurité :
+
+EC2 offre des fonctionnalités de sécurité robustes pour protéger les instances EC2 et les données qui y sont stockées. Cela inclut la possibilité de définir des règles de pare-feu (groupes de sécurité), d'utiliser des clés de chiffrement pour chiffrer les volumes de stockage, d'appliquer des politiques de contrôle d'accès IAM, etc.
+
+== Tarification :
+
+Amazon EC2 propose plusieurs options tarifaires, y compris:
+[%step]
+* les instances à la demande (paiement à l'heure)
+* les instances réservées (engagement à long terme avec une capacité réduite)
+* les instances spot (enchères de capacité inutilisée)
+* les instances dédiées (serveurs physiques dédiés). 
+
+
+=== ...
+
+La tarification varie en fonction du type d'instance, de la région, de l'utilisation, etc.
+

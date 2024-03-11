@@ -1,0 +1,18 @@
+= AWS CloudFormation
+
+== Définition: 
+
+CloudFormation permet de déployer et de gérer des ressources AWS en utilisant des modèles déclaratifs. 
+
+=== Des modèles déclaratifs
+
+Ces modèles peuvent être:
+[%step]
+* versionnés
+* partagés
+* réutilisés.
+
+== Utilité
+
+CloudFormation automatise le provisionnement des infrastructures, ce qui facilite la gestion de l'infrastructure en tant que code.
+

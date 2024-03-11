@@ -1,0 +1,50 @@
+= QCM sur la scalabilité
+
+== Question 1
+
+Compléter la phrase
+
+La scalabilité se réfère à la ... d'un système à s'... et à ... une ... de la ... de travail de manière .... 
+
+=== Réponse
+
+La scalabilité se réfère à la capacité d'un système à s'adapter et à gérer une augmentation de la charge de travail de manière transparente. 
+
+== Qestion 2
+
+Compléter la phrase
+
+Cela implique généralement d'ajuster la ... des ... (comme les ..., les bases de données, etc.) en fonction de ... ..., que ce soit:
+[%step]
+* en augmentant la capacité pour gérer une ... de ... croissante 
+* en diminuant la capacité lorsqu'elle n'est plus nécessaire.
+
+=== Réponse 
+
+Cela implique généralement d'ajuster la taille des ressources (comme les serveurs, les bases de données, etc.) en fonction de la demande, que ce soit:
+[%step]
+* en augmentant la capacité pour gérer une charge de travail croissante 
+* en diminuant la capacité lorsqu'elle n'est plus nécessaire.
+
+== Question 3  
+
+Dans le contexte d'AWS, la scalabilité peut être réalisée à travers divers services tels que :
+[%step]
+* ... pour les serveurs virtuels,
+* ... pour les bases de données relationnelles,
+* d'autres services de stockage et de calcul qui peuvent être ajustés dynamiquement en fonction des besoins.
+
+=== Réponse
+
+Dans le contexte d'AWS, la scalabilité peut être réalisée à travers divers services tels que :
+[%step]
+* EC2 (Elastic Compute Cloud) pour les serveurs virtuels,
+* RDS (Relational Database Service) pour les bases de données relationnelles,
+* d'autres services de stockage et de calcul qui peuvent être ajustés dynamiquement en fonction des besoins.
+
+
+=== ...
+
+link:./qcms.html[Revenir aux QCM's]
+
+

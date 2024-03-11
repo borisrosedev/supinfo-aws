@@ -1,0 +1,74 @@
+= QCM 2
+
+== Question 1
+
+Compléter.
+
+Le cloud computing consiste à fournir des ... informatiques, telles que:
+* des s...
+* des b...
+* du s...
+* des r... 
+* des l...
+Tout cela via ... et à la ...
+
+=== Réponse 
+
+Le cloud computing consiste à fournir des ressources informatiques, telles que:
+[%step]
+* des serveurs 
+* des bases de données
+* du stockage
+* des réseaux 
+* des logiciels
+
+== Question 2
+
+Cas d'espèce:
+
+Monsieur X, vendeur d'art, ne possède pas de ressources informatiques physiques et surtout ne souhaite pas en gérer lui-même. Il veut pourtant déployer son application ArtShop sur l'Internet et donc qu'elle soit servie/disponible en ligne. En outre il a besoin d'une base de données pour les données client, ses produits et les commandes . Pourquoi lui conseillez-vous AWS ?
+
+=== Réponse 
+
+On peut lui conseiller AWS car il s'agit d'un fournisseur de services cloud qui permet à ses utilisateurs de louer des ressources qu'ils peuvent ne pas possèder physiquement.
+
+
+== Question 3
+
+Cas d'espèce:
+
+Monsieur X veut déployer son application ArtShop sur Internet. Son développeur veut que AWS fournisse tout sauf l'application: stockage, base de données , machine virtuelle si besoin. 
+
+Quel modèle de services Cloud lui conseillez-vous ?
+
+=== Réponse
+
+Le modèle AWS : Platform as a Service (PaaS). Avec ce modèle, AWS fournit des plateformes de développement et de déploiement d'applications sur Internet et le client n'a pas à se soucier de l'infrastructure sous-jacente (base de données, stockage, réseau). AWS s'en occupe. Cela réduit pour le Dev, la charge de travail opérationnelle, mais offre moins de contrôle direct sur l'infrastructure.
+
+
+== Question 4
+
+Compléter.
+
+L'élasticité dans le cloud computing fait référence à la capacité d'... automatiquement la ... informatique en fonction de la ... 
+
+Les utilisateurs peuvent ... ou  ...  la capacité de ... en fonction du .. de leur site web sans avoir à ... ou à ... manuellement des ressources.
+
+=== Réponse
+
+L'élasticité dans le cloud computing fait référence à la capacité d'ajuster automatiquement la capacité informatique en fonction de la demande. 
+
+Les utilisateurs peuvent augmenter ou réduire la capacité de calcul en fonction du trafic de leur site web sans avoir à provisionner ou à libérer manuellement des ressources.
+
+
+== Question 5
+
+Dans le cadre de l'architecture AWS (Amazon Web Services), une architecture redondante désigne une conception qui intègre des éléments de ... ou de ... pour assurer la ... et la ... des systèmes. 
+
+=== Réponse 
+
+Dans le cadre de l'architecture AWS (Amazon Web Services), une architecture redondante désigne une conception qui intègre des éléments de duplication ou de réplication pour assurer la disponibilité et la résilience des systèmes. 
+
+=== ...
+
+link:./qcms.html[Revenir aux QCM's]

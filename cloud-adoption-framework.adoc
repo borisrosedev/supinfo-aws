@@ -1,0 +1,88 @@
+= Le AWS Cloud Adoption Framework
+
+== Définition
+
+Le AWS Cloud Adoption Framework (CAF) est un ensemble de meilleures pratiques, de conseils et d'outils proposés par Amazon Web Services (AWS) pour aider les organisations à adopter et à migrer vers le cloud de manière efficace et réussie.
+
+
+== Objectif 
+
+Le CAF est conçu pour guider les entreprises à travers les différentes étapes de leur parcours vers le cloud, en leur fournissant:
+
+[%step]
+* un cadre structuré
+* des recommandations 
+
+=== ...
+
+pour atteindre leurs objectifs commerciaux tout en tirant parti des avantages du cloud.
+
+== Points à connaître
+
+== Cadre structuré 
+
+Le CAF fournit un cadre structuré en cinq perspectives principales : 
+[%step]
+* affaires
+* processustechnologies
+* sécurité 
+* organisation. 
+
+=== ...
+
+Ces perspectives sont conçues pour aider les organisations à aborder la migration vers le cloud de manière holistique, en prenant en compte les différents aspects impliqués dans le processus.
+
+== Principes directeurs 
+
+Le CAF repose sur une série de principes directeurs clés qui guident les organisations dans leur adoption du cloud. 
+
+
+Ces principes incluent:
+[%step]
+* la priorisation de la sécurité
+* la maximisation de la valeur commerciale, 
+* l'alignement avec les objectifs métier
+* l'optimisation des coûts
+* la promotion de l'innovation
+* la gestion du changement.
+
+=== Méthodologie de mise en œuvre 
+
+Le CAF propose une méthodologie de mise en œuvre en cinq phases : 
+[%step]
+* préparer
+* planifier
+* adopter
+* gérer 
+* évoluer
+
+=== ...
+
+Chaque phase comprend des activités spécifiques et des recommandations pour aider les organisations à naviguer dans leur parcours vers le cloud, de la planification initiale à la gestion continue des ressources cloud.
+
+=== Outils et ressources  
+
+AWS propose une gamme d'outils, de ressources et de services complémentaires pour aider les organisations à mettre en œuvre le CAF avec succès. 
+
+=== ...
+
+Cela comprend :
+[%step]
+* des guides de bonnes pratiques
+* des modèles de documents
+* des formations
+* des services de conseil
+* des services cloud AWS spécifiques conçus pour répondre aux besoins des organisations à chaque étape de leur adoption du cloud.
+
+=== Flexibilité et adaptabilité 
+
+Le CAF est conçu pour être flexible et adaptable aux besoins spécifiques de chaque organisation. 
+
+=== ...
+
+Il peut être personnalisé en fonction :
+[%step]
+* de la taille de l'entreprise
+* de l'industrie
+* des objectifs métier
+* des contraintes technologiques, permettant aux organisations d'adopter une approche qui leur convient le mieux.

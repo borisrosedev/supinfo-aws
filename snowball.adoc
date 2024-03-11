@@ -1,0 +1,70 @@
+= AWS Snowball
+
+== Définition
+
+AWS Snowball est un service proposé par Amazon Web Services (AWS) qui permet de transférer de grandes quantités de données vers et depuis le cloud AWS de manière sécurisée, rapide et efficace, en utilisant des appareils de stockage physiques. 
+
+== Appareils Snowball :
+
+Les appareils Snowball sont des appareils de stockage physiques robustes fournis par AWS, conçus pour transporter de grandes quantités de données vers et depuis le cloud AWS.
+
+=== ...
+
+Il existe deux types principaux d'appareils Snowball :
+
+== Snowball Edge : 
+
+Il s'agit d'un appareil plus robuste qui offre une capacité de stockage plus importante et des fonctionnalités supplémentaires telles que le traitement des données en bordure de réseau (edge computing).
+
+
+=== Snowball : 
+
+C'est l'appareil d'origine, conçu pour les transferts de données massifs. 
+
+Il est disponible en plusieurs capacités de stockage allant jusqu'à plusieurs pétaoctets.
+
+== Fonctionnalités Principales :
+
+=== Transfert de données : 
+
+Les appareils Snowball permettent de transférer rapidement de grandes quantités de données vers et depuis le cloud AWS, en utilisant des connexions haut débit.
+
+=== Sécurité : 
+
+Les appareils Snowball intègrent des fonctionnalités de sécurité telles que le chiffrement des données, la validation du matériel, et la gestion des clés de chiffrement.
+
+
+=== Facilité d'utilisation : 
+
+Le processus de transfert de données avec Snowball est simple et automatisé. AWS fournit des outils et des instructions pour préparer les appareils, copier les données, et les expédier vers et depuis le cloud AWS.
+
+
+=== Compatibilité : 
+
+Les appareils Snowball sont compatibles avec de nombreux services AWS, y compris Amazon S3, Amazon EBS, Amazon Glacier, etc.
+
+
+=== Gestion centralisée : 
+
+Vous pouvez gérer vos transferts de données Snowball à partir de la console AWS Management Console, ce qui permet une gestion centralisée et simplifiée.
+
+== Cas d'Utilisation :
+
+=== Migration de données : 
+
+Les appareils Snowball sont souvent utilisés pour migrer des charges de travail et des données vers le cloud AWS, en particulier lorsque les connexions réseau haut débit ne sont pas disponibles ou ne sont pas pratiques.
+
+=== Transfert de données massif : 
+
+Les appareils Snowball sont utiles pour les transferts de données massifs, tels que la migration de centres de données, le transfert de grandes quantités de données pour l'analyse, etc.
+
+=== Sauvegarde et archivage : Les appareils Snowball peuvent être utilisés pour sauvegarder et archiver de grandes quantités de données dans le cloud AWS, en utilisant des services comme Amazon S3 et Amazon Glacier.
+
+
+=== Tarification :
+
+AWS facture des frais de service pour l'utilisation des appareils Snowball, qui sont basés sur la capacité de stockage de l'appareil et la durée de l'utilisation.
+
+=== ...
+
+Les frais comprennent également les frais d'expédition de l'appareil vers et depuis votre emplacement.

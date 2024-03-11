@@ -1,0 +1,10 @@
+= Compute Services
+
+== Amazon EC2 (Elastic Compute Cloud)
+
+Fournit des instances de serveurs virtuels élastiques pour exécuter des applications.
+
+== AWS Lambda
+
+Permet l'exécution de code sans serveur en réponse à des événements.
+

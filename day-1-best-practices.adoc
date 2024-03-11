@@ -1,0 +1,89 @@
+= Les meilleures pratiques au moment de création son compte AWS
+
+== Introduction
+
+Lorsque vous créez un nouveau compte AWS, il est essentiel de suivre les meilleures pratiques dès le premier jour pour garantir la sécurité, l'efficacité et la conformité de votre infrastructure cloud. 
+
+
+
+== Activer le niveau de support Basic :
+
+Lorsque vous créez un nouveau compte AWS, activez le niveau de support Basic. 
+
+Cela vous donne accès à des ressources utiles telles que:
+[%step]
+* la documentation AWS
+* l'assistance clientèle.
+
+
+== Configurer la facturation et les alertes de coûts :
+
+Configurez les alertes de coûts pour surveiller vos dépenses AWS et éviter les surprises à la fin du mois. 
+
+=== ...
+
+Vous pouvez définir des limites de budget et recevoir des notifications par e-mail ou SMS lorsque vos dépenses dépassent ces limites.
+
+=== ...
+
+
+
+== Appliquer les principes de sécurité dès le départ :
+
+=== ...
+
+Configurez l'authentification multi-facteurs (MFA) pour votre compte AWS root et pour les utilisateurs IAM. 
+
+=== ...
+
+Cela ajoute une couche de sécurité supplémentaire en exigeant une deuxième forme d'identification lors de la connexion.
+
+=== ...
+
+Suivez les bonnes pratiques de gestion des accès et des identités (IAM) en attribuant des autorisations minimales nécessaires à chaque utilisateur, groupe ou rôle IAM.
+
+=== ...
+
+Activez AWS CloudTrail pour enregistrer toutes les actions effectuées sur votre compte AWS. 
+
+Cela vous permet de suivre les modifications, de détecter les activités suspectes et de répondre aux exigences de conformité.
+
+=== ...
+
+Activez AWS Config pour évaluer en continu la conformité de vos ressources par rapport à vos règles de configuration prédéfinies.
+
+=== ...
+
+== Créer une architecture de réseau sécurisée :
+
+
+Configurez des groupes de sécurité pour contrôler le trafic réseau entrant et sortant de vos instances EC2. 
+
+=== ...
+
+Restreignez les accès en fonction du principe du besoin d'en connaître.
+
+=== ...
+
+Utilisez AWS Virtual Private Cloud (VPC) pour isoler vos ressources cloud dans un réseau virtuel privé dédié.
+
+
+== Chiffrer vos données :
+
+Utilisez AWS Key Management Service (KMS) pour gérer vos clés de chiffrement et chiffrer les données sensibles stockées dans Amazon S3, EBS, RDS, etc.
+
+
+== Configurer les sauvegardes :
+
+Mettez en place des stratégies de sauvegarde régulières pour protéger vos données contre la perte accidentelle ou la corruption.
+
+
+== Suivre les meilleures pratiques pour les services spécifiques :
+
+Pour chaque service AWS que vous utilisez, consultez la documentation officielle et suivez les meilleures pratiques recommandées par AWS.
+
+
+== S'informer et se former :
+
+Explorez les ressources de formation et de documentation AWS pour mieux comprendre les services que vous utilisez et pour rester à jour sur les dernières pratiques recommandées.
+

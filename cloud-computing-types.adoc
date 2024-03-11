@@ -1,0 +1,51 @@
+= Le cloud computing
+
+== Définition
+
+Le cloud computing, ou informatique en nuage, fait référence à la fourniture de services informatiques, tels que le stockage, le traitement et la gestion des données, via Internet. 
+
+
+== Types de cloud computing
+
+Il existe différents types de cloud computing qui varient en fonction du niveau de contrôle, de la localisation des ressources et du modèle économique. 
+
+== Cloud public 
+
+Dans un cloud public, les ressources informatiques sont mises à disposition par un fournisseur tiers via Internet. 
+
+
+=== ...
+
+Ces ressources sont partagées entre plusieurs clients, ce qui permet une utilisation efficace des ressources et une réduction des coûts. 
+
+=== ...
+
+
+Les exemples de fournisseurs de cloud public incluent Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), et d'autres.
+
+== Cloud privé : 
+
+Un cloud privé est une infrastructure cloud dédiée et exclusivement utilisée par une seule organisation. 
+
+
+=== ...
+
+Les ressources sont généralement hébergées sur site ou dans un centre de données privé, et l'organisation a un contrôle total sur l'environnement informatique. 
+
+
+=== ...
+
+Les clouds privés offrent un niveau accru de sécurité et de contrôle, mais ils peuvent être plus coûteux à mettre en place et à maintenir par rapport aux solutions de cloud public.
+
+== Cloud hybride : 
+
+Un cloud hybride est une combinaison de ressources informatiques provenant à la fois d'un cloud public et d'un cloud privé. 
+
+
+=== ...
+
+Les organisations utilisent un cloud hybride pour bénéficier des avantages des deux environnements:
+[%step]
+* en utilisant le cloud public pour des charges de travail temporaires ou évolutives
+* en conservant les données sensibles ou les applications critiques dans un cloud privé pour des raisons de sécurité ou de conformité.
+

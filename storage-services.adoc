@@ -1,0 +1,9 @@
+= Storage Services
+
+== Amazon S3 (Simple Storage Service)
+
+Stockage d'objets scalable pour les données et les applications.
+
+== Amazon EBS (Elastic Block Store)
+
+Stockage persistant pour les instances EC2.

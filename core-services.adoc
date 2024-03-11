@@ -1,0 +1,66 @@
+= AWS Core Services
+
+== Compute Services
+
+=== Amazon EC2 (Elastic Compute Cloud)
+
+Fournit des instances de serveurs virtuels élastiques pour exécuter des applications.
+
+=== AWS Lambda
+
+Permet l'exécution de code sans serveur en réponse à des événements.
+
+== Storage Services
+
+=== Amazon S3 (Simple Storage Service)
+
+Stockage d'objets scalable pour les données et les applications.
+
+=== Amazon EBS (Elastic Block Store)
+
+Stockage persistant pour les instances EC2.
+
+
+== Database Services
+
+=== Amazon RDS (Relational Database Service)
+
+Gestion facile des bases de données relationnelles.
+
+
+=== Amazon DynamoDB: 
+
+Base de données NoSQL entièrement gérée.
+
+
+== Networking Services
+
+
+=== Amazon VPC (Virtual Private Cloud)
+
+Isolation logique du réseau dans le cloud.
+
+=== Amazon Route 53
+
+Service de domaines et de système de noms de domaine (DNS).
+
+
+== Security Services
+
+=== AWS IAM (Identity and Access Management)
+
+Gère l'accès aux ressources AWS de manière sécurisée.
+
+=== Amazon GuardDuty
+
+Service de détection de menaces pour la sécurité.
+
+== Management Tools
+
+=== AWS CloudWatch
+
+Surveillance et gestion des ressources AWS.
+
+=== AWS CloudFormation
+
+Provisionnement et gestion d'infrastructures en tant que code.

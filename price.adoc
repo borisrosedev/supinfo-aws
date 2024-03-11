@@ -1,0 +1,13 @@
+= Price
+
+== Pay-as-You-Go Model
+
+Paiement uniquement pour les services utilisés sans engagement à long terme.
+
+== Pricing Calculator
+
+Outil en ligne pour estimer les coûts des services AWS.
+
+== Reserved Instances and Savings Plans
+
+Options pour réduire les coûts en réservant des capacités à long terme.

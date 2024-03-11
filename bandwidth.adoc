@@ -1,0 +1,42 @@
+= La bande passante et AWS
+
+== Définition
+
+La bande passante fait référence à la quantité maximale de données qui peuvent être transférées d'un point à un autre dans un laps de temps donné. 
+
+== Contexte des services cloud
+
+Dans le contexte des services cloud comme AWS, la bande passante est un élément crucial à considérer car elle peut avoir un impact significatif sur les coûts et les performances.
+
+== Transfert de données 
+
+AWS facture les clients pour le transfert de données entrant et sortant de ses services, ce qui inclut:
+[%step]
+* le trafic réseau sortant depuis les instances EC2
+* les transferts de données sortantes depuis les services de stockage comme Amazon S3 et Amazon Glacier
+* ainsi que d'autres services.
+
+== Tarification par utilisation 
+
+Les tarifs de bande passante chez AWS sont généralement basés sur le volume de données transférées, mesuré en gigaoctets (Go) ou en téraoctets (To), et sont généralement facturés en fonction du niveau de consommation. 
+
+=== ...
+
+Par exemple, AWS peut facturer un tarif réduit pour les premiers téraoctets de données sortantes, avec une tarification graduée pour les volumes de données plus importants.
+
+== Modèles de tarification 
+
+AWS propose différents modèles de tarification pour la bande passante, y compris 
+[%step]
+* des tarifs réduits pour le trafic réseau interne à la région AWS
+* des tarifs standard pour le trafic sortant vers internet
+* ainsi que des options tarifaires spéciales pour les transferts de données à grande échelle.
+
+== Optimisation de la bande passante 
+
+Pour optimiser les coûts associés à la bande passante, il est important pour les clients AWS de mettre en œuvre des stratégies telles que:
+[%step]
+* l'utilisation de services de mise en cache comme Amazon CloudFront pour réduire les transferts de données sortantes vers internet, 
+* la mise en place de politiques de rétention des données pour limiter le volume de données stockées
+* l'utilisation de services de compression pour réduire la taille des données transférées.
+

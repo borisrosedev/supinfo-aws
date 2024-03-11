@@ -1,0 +1,80 @@
+= Amazon API Gateway
+
+== Introduction
+
+Amazon API Gateway est un service de gestion des API fourni par Amazon Web Services (AWS). Il permet aux développeurs de créer, déployer, gérer et sécuriser des API à grande échelle. 
+
+
+== Création d'API RESTful et WebSocket : 
+
+API Gateway permet de créer  :
+[%step]
+* des API RESTful
+* des API WebSocket pour permettre la communication bidirectionnelle en temps réel entre les applications.
+
+
+== Intégration avec d'autres services AWS : 
+
+Vous pouvez intégrer facilement vos API Gateway avec d'autres services AWS tels que:
+[%step]
+* AWS Lambda
+* Amazon DynamoDB
+* Amazon S3
+* etc., 
+
+=== ...
+
+pour créer des applications serverless.
+
+== Gestion des versions et des déploiements : 
+
+API Gateway permet de gérer différentes versions de vos API et de les déployer dans différents environnements (par exemple, développement, test, production).
+
+== Gestion de l'authentification et de l'autorisation : 
+
+Vous pouvez configurer différents mécanismes d'authentification et d'autorisation pour sécuriser l'accès à vos API, y compris :
+[%step]
+* l'authentification basée sur les jetons
+* l'intégration avec Amazon Cognito, 
+* etc.
+
+== Contrôle d'accès et limitations de taux : 
+
+API Gateway offre des fonctionnalités de contrôle d'accès et de gestion des limitations de taux pour contrôler l'accès à vos API et prévenir les attaques de déni de service.
+
+== Suivi et surveillance : 
+
+Vous pouvez surveiller l'utilisation de vos API, collecter des journaux d'accès et des métriques à l'aide de services tels que:
+[%step]
+* Amazon CloudWatch 
+* AWS X-Ray pour diagnostiquer les problèmes et optimiser les performances.
+
+== Personnalisation des réponses : 
+
+API Gateway permet de personnaliser les réponses renvoyées par vos API à l'aide de modèles de transformation, ce qui vous permet de formater les données de sortie selon les besoins de vos clients.
+
+== Intégration avec des outils de développement : 
+
+Vous pouvez intégrer API Gateway avec des outils de développement tels que:
+[%step]
+* AWS SDK, 
+* AWS CLI, 
+* AWS CloudFormation, 
+* etc.
+
+=== ...
+
+pour automatiser la création et la gestion de vos API.
+
+== Facturation basée sur l'utilisation : 
+
+API Gateway est facturé en fonction de l'utilisation, y compris:
+[%step]
+* le nombre de requêtes,
+* le volume de données transférées 
+* d'autres facteurs. 
+
+=== ...
+
+Les tarifs varient en fonction de la région AWS dans laquelle votre API est déployée et des fonctionnalités spécifiques que vous utilisez.
+

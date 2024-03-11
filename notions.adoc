@@ -1,0 +1,36 @@
+CloudTrail
+AMIs
+Amazon Glacier Deep Archive
+Amazon S3 Intelligent Tiering
+Amazon S3 Standard-Infrequent Access
+EC2 Instance Store
+Trade capital expense (CAPEX) for operational expense (OPEX)
+ElastiCache
+AWS Direct Connect
+VPC Peering
+Site-to-Site VPN
+AWS Connect
+Network Access Control List (NACL)
+Security Groups
+Web Application Firewall (WAF)
+GuardDuty
+A VPC
+NAT Instances
+Availability Zones
+VPC Endpoints
+VPC Peering
+AWS Direct Connect
+Internet Gateway
+CloudWatch Alarms
+CloudWatch Triggers
+CloudWatch Logs
+CloudWatch Events
+Which S3 feature should you use if you want to make sure that a policy will no longer be changed?
+S3 Object Lock
+S3 Glacier Vault Lock
+S3 Lifecycle Rules
+S3 Standard - Infrequent Access (IA)
+
+
+
+

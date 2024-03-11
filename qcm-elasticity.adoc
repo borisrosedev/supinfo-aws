@@ -1,0 +1,39 @@
+= QCM sur l'élasticité
+
+== Question 1
+
+L'élasticité est un sous-ensemble de la ... qui se concentre spécifiquement sur la ... d'un système à s'... automatiquement à la ... en ... ... 
+
+=== Réponse
+
+L'élasticité est un sous-ensemble de la scalabilité qui se concentre spécifiquement sur la capacité d'un système à s'adapter automatiquement à la demande en temps réel. 
+
+
+== Question 2 
+
+Cas d'espèce:
+
+Monsieur X, qui utilise le modèle de services PaaS de AWS, se demande si il va devoir demander à chaque fois à son développeur en cas d'augmentation du traffic sur son application d'ajouter des ressources pour que celle-ci puisse la supporter. Est-ce que sa préoccupation est fondée ?
+
+=== Réponse
+
+Non car les ressources peuvent être ajoutées ou supprimées de manière dynamique en réponse aux fluctuations de la charge de travail, sans intervention humaine.
+
+
+== Question 3
+
+Quelle est la fonctionnalité qui permet aux utilisateurs de configurer des règles pour ajuster automatiquement la capacité des ressources en fonction de métriques de performance ?
+
+=== Réponse
+
+L'autoscaling, qui permet aux utilisateurs de configurer des règles pour ajuster automatiquement la capacité des ressources en fonction de métriques de performance telles que :
+[%step]
+* l'utilisation CPU
+* le nombre de requêtes, 
+* etc.
+
+=== ...
+
+link:./qcms.html[Revenir aux QCM's]
+
+

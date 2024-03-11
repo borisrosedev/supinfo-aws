@@ -1,0 +1,10 @@
+= Amazon VPC (Virtual Private Cloud):
+
+== Définition: 
+
+VPC permet aux utilisateurs de créer un réseau virtuel isolé dans le cloud. 
+
+Il offre un contrôle granulaire sur l'environnement réseau, y compris la création de sous-réseaux, la configuration des tables de routage, etc.
+== Utilité: 
+
+VPC est essentiel pour isoler les ressources, construire des architectures réseau complexes et connecter le cloud à des réseaux sur site.

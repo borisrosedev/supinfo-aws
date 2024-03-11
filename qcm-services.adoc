@@ -1,0 +1,117 @@
+= QCM 1
+
+== Question 1 
+
+"AWS ne couvre pas le domaine de L'IA/ML" 
+
+Cette affirmation est telle vraie ?
+
+=== Réponse: 
+
+Faux, AWS propose une vaste gamme de services cloud qui couvrent divers domaines tels que:
+[%step]
+* le calcul
+* le stockage
+* les bases de données
+* le réseau
+* l'IA/ML
+* la sécurité
+* l'analytique
+* etc.
+
+== Question 2
+
+"Amazon S3 concerne le calcul"
+
+Cette affirmation est telle vraie ?
+
+=== Réponse 
+
+Faux, Amazon S3 concerne le stockage d'objets
+
+
+== Question 3
+
+"Amazon S3", le S3 est le diminutif de:
+[%step]
+
+* Strong Storage Service 
+* Simple Storage Service
+* Solid Storage Service
+
+=== Réponse
+
+Amazon S3 (Simple Storage Service)
+
+== Question 4
+
+Compléter cette phrase.
+
+IAM permet de gérer ... et ... des utilisateurs pour accéder aux ressources AWS de manière sécurisée.
+
+=== Réponse 
+
+IAM (Identity and Access Management) permet de gérer les identités et les autorisations des utilisateurs pour accéder aux ressources AWS de manière sécurisée.
+
+== Question 5
+
+Compléter:
+
+* Le ... des données
+* La ... aux ... de sécurité
+* La gestion des ...
+sont également des aspects importants de la sécurité sur AWS.
+
+=== Réponse
+
+* Le chiffrement des données
+* La conformité aux normes de sécurité
+* La gestion des clés 
+sont également des aspects importants de la sécurité sur AWS.
+
+== Question 6
+
+Les clients peuvent contacter le support via divers canaux. Citez 4 exemples vus en cours 
+
+Indices : 🐈 🎫 ... ❓
+
+=== Réponse
+
+Les clients peuvent contacter le support via divers canaux, y compris:
+* le chat en ligne
+* le téléphone
+* les tickets d'assistance
+* le forum communautaire
+* etc.
+
+== Question 7
+
+AWS propose des centres de données répartis géographiquement appelés "zones de disponibilité". 
+
+Cela-est-il vrai ?
+
+=== Réponse
+
+Oui, AWS propose des centres de données répartis géographiquement appelés "zones de disponibilité" (AZs). 
+
+
+== Question 8
+
+EC2 permet aux utilisateurs de louer des serveurs ... appelés ...
+
+=== Réponse
+
+EC2 permet aux utilisateurs de louer des serveurs virtuels dans le cloud, appelés instances. 
+
+
+
+
+=== ...
+
+link:./qcms.html[Revenir aux QCM's]
+
+
+
+
+
+

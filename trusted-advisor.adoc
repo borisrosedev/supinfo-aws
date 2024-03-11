@@ -1,0 +1,87 @@
+= AWS Trusted Advisor
+
+== Définition
+
+AWS Trusted Advisor est un service proposé par Amazon Web Services (AWS) qui fournit des recommandations personnalisées pour optimiser les performances, améliorer la sécurité, réduire les coûts et augmenter la fiabilité de vos ressources AWS. 
+
+
+=== ...
+
+Les recommandations sont basées sur les meilleures pratiques AWS, les modèles de déploiement et les configurations de services.
+
+=== ...
+
+L'une des fonctionnalités clés de AWS Trusted Advisor est les "checks" ou vérifications. 
+
+
+== Types de checks :
+
+AWS Trusted Advisor propose différents types de checks qui couvrent plusieurs aspects de votre infrastructure AWS, notamment :
+
+
+=== Sécurité : 
+
+Vérifie les paramètres de sécurité pour identifier les vulnérabilités potentielles.
+
+
+== Performance : 
+
+Analyse les performances de vos ressources pour identifier les goulots d'étranglement et les optimisations possibles.
+
+
+== Fiabilité : 
+
+Identifie les ressources qui peuvent bénéficier de configurations de haute disponibilité pour améliorer la fiabilité.
+
+
+== Coûts : 
+
+Analyse votre utilisation des ressources pour identifier les opportunités d'optimisation des coûts.
+
+
+== Recommandations personnalisées :
+
+Les checks de Trusted Advisor génèrent des recommandations personnalisées en fonction de votre utilisation et de vos configurations spécifiques.
+
+=== ...
+
+Ces recommandations sont conçues pour vous aider :
+[%step]
+* à améliorer la sécurité, les performances, la fiabilité
+* à réduire les coûts de votre infrastructure AWS.
+
+=== Automatisation et intégration :
+
+Vous pouvez automatiser l'exécution des checks Trusted Advisor à l'aide:
+[%step]
+* d'AWS CloudFormation, 
+* d'AWS Lambda 
+* de l'API Trusted Advisor.
+
+=== ...
+
+Trusted Advisor peut être intégré à d'autres services AWS pour prendre des actions automatiques en réponse aux recommandations générées.
+
+
+=== Accès via AWS Management Console :
+
+Vous pouvez accéder à Trusted Advisor via la console de gestion AWS.
+
+Le tableau de bord de Trusted Advisor affiche les recommandations pour chaque type de check, ainsi que des détails sur la pertinence et l'impact potentiel de chaque recommandation.
+
+
+=== Niveaux de support :
+
+AWS Trusted Advisor est disponible dans différentes formules de support AWS, notamment:
+[%step]
+* Basic, 
+* Developer, 
+* Business, 
+* Enterprise,
+* Premier. 
+
+=== ...
+
+Chaque niveau de support offre un ensemble différent de fonctionnalités et de checks.
+
+

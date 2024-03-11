@@ -1,0 +1,9 @@
+= Elastic Load Balancing (ELB):
+
+== Définition 
+
+ELB distribue automatiquement le trafic entrant sur plusieurs instances EC2 afin d'améliorer la disponibilité et la tolérance aux pannes.
+
+== Utilité
+
+ELB assure une répartition équilibrée de la charge pour maintenir la disponibilité des applications.

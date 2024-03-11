@@ -1,0 +1,84 @@
+= AWS X-Ray
+
+== Définition 
+AWS X-Ray est un service de surveillance, de suivi et de diagnostic fourni par Amazon Web Services (AWS). 
+
+=== ...
+
+Il permet aux développeurs de comprendre, d'analyser et de déboguer les performances des applications déployées dans un environnement cloud. 
+
+
+== Suivi des requêtes et des services : 
+
+AWS X-Ray permet de tracer et de suivre:
+[%step]
+* les requêtes HTTP, 
+* les requêtes de bases de données, 
+* les appels de services AWS, 
+* les requêtes de conteneurs, etc., 
+
+=== ...
+
+à travers les différentes composantes de l'infrastructure de votre application.
+
+== Visualisation des services et des dépendances : 
+
+X-Ray fournit une visualisation graphique des services et des dépendances de votre application, ce qui permet de comprendre les interactions entre les différentes composantes et d'identifier les goulots d'étranglement et les points faibles.
+
+== Identification des erreurs et des latences : 
+
+X-Ray identifie :
+[%step]
+* les erreurs, 
+* les latences
+* les problèmes de performance au sein de votre application, 
+
+=== ...
+
+en fournissant des métriques détaillées sur:
+[%step]
+* les temps de réponse, 
+* les taux d'erreur, 
+* les temps de latence, 
+* etc.
+
+
+== Analyse de bout en bout : 
+
+X-Ray fournit une vue de bout en bout de la performance de votre application, en suivant les requêtes depuis l'entrée de l'application jusqu'à la sortie, ce qui permet d'identifier les problèmes de performance à chaque étape du traitement.
+
+== Intégration avec d'autres services AWS : 
+
+X-Ray s'intègre avec d'autres services AWS tels que 
+[%step]
+* Amazon EC2, 
+* Amazon Lambda, 
+* Amazon API Gateway, 
+* Amazon ECS, 
+* etc., 
+
+=== ...
+
+pour fournir une surveillance et un suivi complets des performances de votre application.
+
+== Analyse détaillée des traces : 
+
+X-Ray permet d'analyser les traces de manière détaillée, en fournissant des informations telles que:
+[%step]
+* les données d'en-tête HTTP, 
+* les paramètres de requête, 
+* les exceptions levées, 
+* les logs associés, etc.
+
+
+== Alertes et notifications : 
+
+X-Ray permet de configurer des alertes et des notifications pour être informé en cas de dépassement des seuils de performance prédéfinis, tels que:
+[%ste^]
+* les temps de réponse anormalement élevés, 
+* les taux d'erreur élevés, 
+* etc.
+
+== Analyse de la répartition des coûts : 
+
+X-Ray fournit des informations sur la répartition des coûts des ressources utilisées par votre application, ce qui permet d'identifier les services les plus coûteux et d'optimiser les coûts.

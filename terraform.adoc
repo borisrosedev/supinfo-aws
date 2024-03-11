@@ -1,0 +1,60 @@
+= Terraform 
+
+== Définition
+
+Terraform est un outil open-source développé par HashiCorp qui permet de :
+[%step]
+* créer, 
+* gérer 
+* provisionner l'infrastructure en tant que code (IaC). 
+
+=== ..
+
+Il permet aux équipes de provisionner et de gérer les ressources informatiques de manière déclarative à travers différents fournisseurs de cloud, y compris Amazon Web Services (AWS).
+
+== Providers
+
+Le lien entre Terraform et AWS réside dans le fait que Terraform fournit un ensemble de plugins (appelés "providers") qui permettent d'interagir avec différents fournisseurs de services cloud, y compris AWS. 
+
+=== ...
+
+Ces plugins permettent à Terraform de gérer les ressources AWS de manière automatisée et reproductible en utilisant une syntaxe déclarative.
+
+
+== Infrastructure as Code (IaC) : 
+
+Terraform permet de définir l'infrastructure AWS sous forme de code, ce qui facilite la gestion, la reproductibilité et la collaboration.
+
+== Déploiement automatisé : 
+
+Terraform peut être utilisé pour déployer automatiquement des ressources AWS telles que:
+[%step]
+* des instances EC2, 
+* des groupes de sécurité, 
+* des bases de données RDS, 
+* des services de conteneurisation ECS ou EKS, 
+* etc.
+
+== Gestion des versions : 
+
+Terraform permet de gérer les différentes versions de votre infrastructure en suivant les changements apportés au code d'infrastructure et en permettant un déploiement cohérent et reproductible.
+
+== Évolutivité : 
+
+Terraform peut être utilisé pour gérer de grandes infrastructures AWS, en automatisant les tâches répétitives et en fournissant une vue d'ensemble de l'ensemble de l'infrastructure.
+
+== Intégration avec d'autres outils : 
+
+Terraform peut être intégré à d'autres outils et workflows de développement, tels que:
+[%step]
+* les outils de gestion de la configuration, 
+* les pipelines CI/CD, 
+* les outils de surveillance,
+* etc.
+
+
+
+
+
+
+

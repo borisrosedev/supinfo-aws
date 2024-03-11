@@ -1,0 +1,58 @@
+= Le modèle de responsabilité partagée d'AWS (Amazon Web Services)
+
+
+== Introduction
+
+Le modèle de responsabilité partagée d'AWS (Amazon Web Services) est un cadre conceptuel qui définit les responsabilités de sécurité partagées entre AWS et ses clients. 
+
+=== ...
+
+Ce modèle clarifie les rôles et les responsabilités de chaque partie en matière de sécurité des données, des applications et des infrastructures hébergées sur AWS. 
+
+== Concept Fondamental :
+
+Le modèle de responsabilité partagée reconnaît que la sécurité dans le cloud est une responsabilité partagée entre le fournisseur de services cloud (AWS) et le client qui utilise ces services.
+
+
+=== ...
+
+AWS est responsable de la sécurité de l'infrastructure cloud sous-jacente, tandis que le client est responsable de la sécurité de tout ce qui est exécuté sur cette infrastructure, y compris les données, les applications, les identités et les accès.
+
+
+== Responsabilités d'AWS :
+
+=== Sécurité de l'Infrastructure : 
+
+AWS est responsable de la sécurité de l'infrastructure cloud sous-jacente, y compris les centres de données, les réseaux, les serveurs, le stockage, et les services cloud.
+
+=== Compliance et Conformité : 
+
+AWS est également responsable de se conformer aux réglementations et aux normes de sécurité, ainsi que de fournir des rapports et des certifications de conformité.
+
+== Responsabilités du Client :
+
+=== Sécurité dans le Cloud : 
+
+Le client est responsable de la sécurité des données, des applications, des identités et des accès dans le cloud AWS.
+
+=== Configuration et Gestion : 
+
+Le client est responsable de la configuration correcte et sécurisée des ressources AWS, de la gestion des identités et des accès, ainsi que de la mise en œuvre des contrôles de sécurité appropriés.
+
+=== Protection des Données : 
+
+Le client est responsable de protéger les données stockées et traitées sur les services AWS, y compris le chiffrement des données sensibles et la mise en œuvre de politiques de gestion des clés.
+
+
+== Exemples de Répartition des Responsabilités :
+
+AWS est responsable de la sécurité physique des centres de données, tandis que le client est responsable de la configuration sécurisée des instances EC2 et des groupes de sécurité.
+
+=== ...
+
+AWS assure la disponibilité des services de base, tandis que le client est responsable de la disponibilité de ses applications et de ses données.
+
+
+== Implémentation :
+
+Le modèle de responsabilité partagée est appliqué à travers une combinaison de fonctionnalités et de services de sécurité fournis par AWS (par exemple, IAM, AWS Config, AWS CloudTrail, etc.) et des meilleures pratiques de sécurité mises en œuvre par le client.

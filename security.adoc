@@ -1,0 +1,34 @@
+= La sécurité avec AWS
+
+== Shared Responsibility Model
+
+AWS suit un modèle de responsabilité partagée où AWS gère la sécurité de l'infrastructure et les clients sont responsables de la sécurité de leurs données et applications.
+
+== Identity and Access Management (IAM)
+
+Gestion des identités, des utilisateurs, des groupes et des rôles pour un accès sécurisé
+
+== Network Security:
+
+=== Amazon VPC
+
+Isolation réseau.
+
+=== AWS WAF (Web Application Firewall)
+
+Protection contre les attaques web.
+
+
+== Data Encryption:
+
+=== AWS Key Management Service (KMS)
+
+Gestion des clés de chiffrement.
+
+=== SSL/TLS
+
+Chiffrement des données en transit.
+
+== Compliance and Certifications
+
+AWS respecte diverses normes de sécurité et de conformité (ex. HIPAA, GDPR).

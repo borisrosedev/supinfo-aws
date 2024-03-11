@@ -1,0 +1,92 @@
+= Amazon Cognito 
+
+== Définition
+
+Amazon Cognito est un service d'AWS qui fournit des fonctionnalités:
+[%step]
+* d'authentification
+* d'autorisation
+* de gestion des utilisateurs pour les applications web et mobiles. 
+
+
+== Gestion de l'identité : 
+
+Amazon Cognito permet aux développeurs de gérer facilement:
+[%step]
+* l'authentification
+* l'autorisation des utilisateurs pour leurs applications. 
+
+=== ..
+
+Il offre différentes méthodes d'authentification, y compris:
+[%step]
+* l'authentification par e-mail/mot de passe, 
+* l'authentification par réseaux sociaux (comme Facebook, Google, etc.), 
+* l'authentification basée sur des fournisseurs d'identité fédérée (tels qu'OpenID Connect, SAML), 
+* l'authentification par jeton d'identité AWS.
+
+== Stockage des données utilisateur : 
+
+Amazon Cognito fournit un stockage sécurisé et évolutif pour les données utilisateur, y compris:
+[%step]
+* les profils utilisateur, 
+* les préférences
+* autres données associées aux utilisateurs. 
+
+=== ...
+
+Ces données peuvent être synchronisées de manière transparente entre les appareils et les plateformes.
+
+== Intégration avec d'autres services AWS : 
+
+Amazon Cognito s'intègre facilement avec d'autres services AWS, tels que:
+[%step]
+* AWS Lambda, 
+* Amazon API Gateway, 
+* Amazon S3, 
+* etc., 
+
+pour offrir une expérience de développement d'applications complète et cohérente.
+
+== Synchronisation des appareils : 
+
+Amazon Cognito prend en charge la synchronisation des données entre les appareils. 
+
+=== ...
+
+Cela permet aux utilisateurs de démarrer une session sur un appareil et de la poursuivre sur un autre sans perdre leur état d'authentification ou leurs données applicatives.
+
+== Sécurité : 
+
+Amazon Cognito offre des fonctionnalités de sécurité robustes, y compris:
+[%step]
+* la gestion des jetons d'authentification
+* la prise en charge du chiffrement côté client, 
+* la détection des fraudes
+* la gestion des rôles et des autorisations.
+
+== Personnalisation des flux d'authentification : 
+
+Les développeurs peuvent personnaliser les flux d'authentification et d'inscription des utilisateurs pour répondre aux besoins spécifiques de leurs applications.
+
+== Analytics et suivi des utilisateurs : 
+
+Amazon Cognito fournit des outils d'analyse pour suivre l'activité des utilisateurs, les performances des applications et d'autres métriques importantes pour les développeurs.
+
+== Facturation basée sur l'utilisation : 
+
+Amazon Cognito est facturé en fonction de:
+[%step]
+* l'utilisation, y compris le nombre d'utilisateurs actifs, 
+* le volume de données stockées 
+* d'autres facteurs. 
+
+=== ...
+
+Les tarifs varient en fonction de la région AWS dans laquelle le service est utilisé et des fonctionnalités spécifiques activées.
+
+
+
+
+
+

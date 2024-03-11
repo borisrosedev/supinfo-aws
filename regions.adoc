@@ -1,0 +1,64 @@
+= L'infrastructure globale d'AWS
+
+== Introduction
+
+Comprendre l'infrastructure globale d'AWS et les types de services disponibles est essentiel pour tirer pleinement parti des services cloud d'Amazon. 
+
+
+== Infrastructure mondiale AWS :
+
+L'infrastructure mondiale d'AWS est composée de centres de données répartis dans le monde entier, formant un réseau mondial de serveurs et de services cloud. 
+
+Cette infrastructure permet à AWS d'offrir ses services à l'échelle mondiale avec:
+[%step]
+* une haute disponibilité
+* une faible latence
+* une redondance élevée.
+
+== Régions AWS :
+
+Une région AWS est une zone géographique dans laquelle AWS exploite plusieurs centres de données appelés "Zones de Disponibilité". 
+
+=== ...
+
+Chaque région est conçue pour être complètement isolée des autres régions AWS afin d'offrir une résilience et une disponibilité élevées. 
+
+=== ...
+
+AWS dispose de nombreuses régions à travers le monde, telles que:
+[%step]
+* US East (N. Virginia)
+* Europe (Ireland)
+* Asia Pacific (Tokyo)
+* etc.
+
+
+== Zones de Disponibilité (Availability Zones) :
+
+Les Zones de Disponibilité (AZ) sont des centres de données distincts, mais étroitement liés, situés à l'intérieur d'une région AWS. 
+
+=== ...
+
+Chaque zone de disponibilité est conçue pour être indépendante des autres, avec:
+[%step]
+* sa propre alimentation
+* son refroidissement
+* son réseau. 
+
+=== ...
+
+Les zones de disponibilité offrent une isolation physique pour garantir une haute disponibilité et une tolérance aux pannes au sein d'une région AWS.
+
+
+== Emplacements de Périphérie (Edge Locations) :
+
+Les emplacements de périphérie sont des points de présence périphériques situés dans divers endroits du monde. 
+
+=== ...
+
+Ils sont utilisés par AWS pour distribuer du contenu aux utilisateurs finaux via des services tels que Amazon CloudFront (un service de distribution de contenu (CDN)). 
+
+=== ...
+
+Les emplacements de périphérie sont généralement situés dans des villes et des régions densément peuplées pour offrir une latence faible et une meilleure expérience utilisateur.
+

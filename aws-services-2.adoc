@@ -1,0 +1,34 @@
+= Les services principaux
+
+== Introduction
+
+[%step]
+* Les principaux services
+* la sécurité
+* l'architecture
+* la tarification
+* le support d'Amazon Web Services (AWS) 
+
+
+
+== AWS Core Services:
+
+link:core-services.html[En savoir plus]
+
+== La sécurité 
+
+link:./security.html[En savoir plus]
+
+== Architecture avec AWS:
+
+link:architecture.html[En savoir plus]
+
+==  Pricing avec AWS
+
+link:price.html[En savoir plus]
+
+== AWS Support
+
+link:support.html[En savoir plus]
+
+

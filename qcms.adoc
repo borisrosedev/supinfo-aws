@@ -1,0 +1,7 @@
+= Tous les QCM's
+
+link:./qcm-cloud-computing.html[Le Cloud Computing]
+link:./qcm-services.html[Les services AWS]
+link:./qcm-elasticity.html[L'élasticité]
+link:./qcm-scalabity.html[La scalabilité]
+link:./qcm-redundancy[L'architecture redondante]

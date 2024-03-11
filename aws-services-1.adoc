@@ -1,0 +1,134 @@
+= Services principaux d'AWS:
+
+AWS propose une vaste gamme de services cloud qui couvrent divers domaines tels que:
+[%step]
+* le calcul
+* le stockage
+* les bases de données
+* le réseau
+* l'IA/ML
+* la sécurité
+* l'analytique
+* etc.
+
+== Services principaux
+
+Parmi les services principaux figurent:
+
+[%step]
+* Amazon EC2 (Elastic Compute Cloud) pour le calcul
+* Amazon S3 (Simple Storage Service) pour le stockage d'objets
+* Amazon RDS (Relational Database Service) pour les bases de données
+* Amazon VPC (Virtual Private Cloud) pour le réseau
+* AWS Lambda pour le calcul sans serveur
+* etc.
+
+== Une insfrastructure
+
+Ces services fournissent une infrastructure :
+[%step]
+* évolutive
+* hautement disponible 
+=== .
+pour répondre aux besoins des applications et des charges de travail.
+
+== Sécurité:
+
+AWS accorde une grande importance à la sécurité et offre une gamme de fonctionnalités et de services pour protéger les données, les applications et l'infrastructure dans le cloud.
+
+=== IAM
+
+IAM (Identity and Access Management) permet de gérer les identités et les autorisations des utilisateurs pour accéder aux ressources AWS de manière sécurisée.
+
+=== ...
+
+[%step]
+* Amazon Inspector
+* AWS WAF (Web Application Firewall)
+* AWS Shield 
+
+=== ...
+
+offrent des fonctionnalités de sécurité pour protéger contre les menaces et les attaques.
+
+=== ...
+
+[%step]
+* Le chiffrement des données
+* La conformité aux normes de sécurité
+* La gestion des clés 
+
+=== ...
+
+sont également des aspects importants de la sécurité sur AWS.
+
+
+== Architecture:
+
+L'architecture sur AWS implique la conception et le déploiement d'infrastructures cloud évolutives, résilientes et hautement disponibles.
+
+=== ...
+
+Les bonnes pratiques incluent:
+[%step]
+* l'utilisation de services gérés
+* la conception de microservices
+* la mise en place de stratégies de sauvegarde et de reprise après sinistre, 
+* la distribution de la charge et la mise en cache, 
+* etc.
+
+=== Serverless
+
+Les architectures sans serveur (serverless), basées sur des conteneurs et orientées événements sont de plus en plus populaires sur AWS pour leur agilité et leur efficacité.
+
+== Tarification:
+
+AWS propose une tarification flexible basée sur la consommation, ce qui signifie que les clients ne paient que pour les ressources qu'ils utilisent réellement.
+
+=== ...
+
+La tarification peut varier en fonction:
+[%step]
+* du type de service
+* de la région
+* de la quantité de données transférées
+* de la fréquence d'utilisation, etc.
+
+=== ...
+
+AWS propose des options de tarification :
+[%step]
+* à l'heure
+* à l'utilisation
+* réservée
+
+=== ...
+
+AWS propose des calculatrices en ligne pour estimer les coûts.
+
+
+== Support:
+
+AWS propose différents niveaux de support, y compris:
+[%step]
+* le support de base
+* le support développeur
+* le support professionnel
+* le support entreprise, avec des SLA (Service Level Agreement) variés.
+
+Le support AWS offre:
+[%step]
+* une assistance technique
+* des conseils d'architecture
+* des recommandations sur les bonnes pratiques
+* des formations
+* etc.
+
+Les clients peuvent contacter le support via divers canaux, y compris:
+[%step]
+* le chat en ligne
+* le téléphone
+* les tickets d'assistance
+* le forum communautaire
+* etc.
+

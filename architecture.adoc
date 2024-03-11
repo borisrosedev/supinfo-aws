@@ -1,0 +1,28 @@
+= Architecture in AWS
+
+== Well-Architected Framework
+
+Il s'agit d'un cadre de conception AWS qui met l'accent sur les meilleures pratiques dans les domaines :
+[%step]
+* des coûts
+* de la performance
+* de la sécurité
+* de la fiabilité
+* de l'efficacité opérationnelle.
+
+== Scalability
+
+Architecture capable de s'adapter dynamiquement à la demande.
+
+link:./scalability.html[En savoir plus]
+
+== High Availability
+
+Assurer la disponibilité continue des applications en utilisant des architectures redondantes.
+
+link:./redundancy.html[En savoir plus]
+
+== Fault Tolerance
+
+Capacité à tolérer les pannes matérielles ou logicielles sans impact sur la disponibilité.
+

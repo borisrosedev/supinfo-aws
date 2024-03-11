@@ -1,0 +1,73 @@
+= Amazon Aurora 
+
+== Définition
+
+Amazon Aurora est un service de base de données relationnelle proposé par Amazon Web Services (AWS). 
+
+=== ...
+
+Il a été conçu pour offrir une alternative hautement performante, disponible et évolutive aux bases de données relationnelles traditionnelles comme MySQL et PostgreSQL. 
+
+
+
+== Architecture : 
+
+Amazon Aurora repose sur une architecture distribuée et repartit les charges de travail sur plusieurs instances de calcul et de stockage. 
+
+=== ...
+
+Cette architecture permet d'atteindre des performances élevées et une évolutivité horizontale.
+
+
+== Compatibilité : 
+
+Amazon Aurora est compatible avec MySQL et PostgreSQL, ce qui signifie que vous pouvez utiliser les mêmes outils, applications et pilotes que vous utilisez déjà avec ces bases de données.
+
+== Performances : 
+
+Amazon Aurora est conçu pour offrir des performances élevées. 
+
+=== ...
+
+Il utilise un stockage SSD hautement performant et optimisé pour les charges de travail de base de données. 
+
+=== ... 
+
+De plus, il prend en charge la mise en cache automatique des requêtes pour améliorer les performances de lecture.
+
+== Disponibilité : 
+
+Amazon Aurora est conçu pour être hautement disponible. Il prend en charge la réplication automatique des données sur plusieurs zones de disponibilité dans une région AWS, ce qui garantit une disponibilité continue même en cas de défaillance d'une zone.
+
+
+== Durabilité : 
+
+Amazon Aurora stocke automatiquement plusieurs copies de vos données dans différentes zones de disponibilité. 
+
+
+Il offre également la possibilité de créer des sauvegardes automatisées et de restaurer rapidement les données en cas de besoin.
+
+== Évolutivité : 
+
+Amazon Aurora est hautement évolutif. Vous pouvez facilement augmenter ou diminuer la taille de votre base de données en fonction de vos besoins de capacité, sans interruption de service.
+
+== Sécurité : 
+
+Amazon Aurora prend en charge diverses fonctionnalités de sécurité, telles que:
+[%step]
+* le chiffrement des données au repos et en transit, 
+* le contrôle d'accès basé sur les rôles, 
+* les audits et les journaux de connexion.
+
+== Gestion : 
+
+Amazon Aurora est entièrement géré par AWS, ce qui signifie que AWS gère pour vous:
+[%step]
+* les tâches de maintenance, 
+* les tâches de mise à l'échelle 
+* les tâches de sauvegarde . 
+
+
+=== ...
+
+Cela permet aux équipes informatiques de se concentrer sur le développement d'applications plutôt que sur la gestion de l'infrastructure de base de données.
