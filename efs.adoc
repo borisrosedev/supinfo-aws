@@ -1,7 +1,10 @@
 = Amazon Elastic File System (Amazon EFS)
 
+== Introduction
 
 Amazon Elastic File System (Amazon EFS) est un service de stockage de fichiers entièrement géré fourni par Amazon Web Services (AWS). 
+
+=== ...
 
 Il permet aux utilisateurs de créer et de gérer des systèmes de fichiers partagés et évolutifs qui peuvent être montés sur plusieurs:
 [%step]

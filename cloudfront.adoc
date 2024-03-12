@@ -1,0 +1,31 @@
+= AWS CloudFront 
+
+== Définition
+
+AWS CloudFront est un service de diffusion de contenu (CDN) fourni par Amazon Web Services. 
+
+
+== Distribution de contenu mondiale : 
+
+CloudFront dispose de plusieurs points de présence (PoP) dans le monde entier, ce qui lui permet de fournir des contenus aux utilisateurs finaux avec une latence minimale.
+
+== Accélération de la diffusion de contenu statique et dynamique : 
+
+CloudFront peut servir aussi bien du contenu statique que dynamique, ce qui permet d'accélérer la diffusion de sites web, d'applications web, de vidéos en streaming, etc.
+
+== Sécurité : 
+
+CloudFront intègre plusieurs fonctionnalités de sécurité telles que l'intégration avec AWS WAF (Web Application Firewall), la prise en charge du chiffrement SSL/TLS, les contrôles d'accès basés sur les identités, etc.
+
+== Intégration avec d'autres services AWS : 
+
+CloudFront s'intègre facilement avec d'autres services AWS tels que S3 (pour le stockage de contenu), EC2 (pour l'hébergement d'applications), Lambda@Edge (pour l'exécution de fonctions Lambda au bord du réseau), etc.
+
+== Gestion des coûts : 
+
+Les coûts de CloudFront sont basés sur l'utilisation, notamment le volume de données transférées et les emplacements d'origine. Il existe également des options de tarification réservée pour les clients ayant des besoins prévisibles en matière de trafic.
+
+== Suivi et analyse : 
+
+CloudFront offre des fonctionnalités de suivi et d'analyse de la diffusion de contenu, permettant aux utilisateurs de surveiller les performances, d'analyser les tendances de trafic et de prendre des décisions informées pour optimiser la diffusion de contenu.
+

@@ -29,6 +29,10 @@
 
 === Module 2 Partie 3
 
+- link:./vpc+.html[Amazon VPC]
+- link:./cloudfront.html[Cloudfront]
+- link:./waf.html[WAF]
+- link:./subnet.html[Les sous-réseaux]
 - link:./autoscaling.html[Auto Scaling]
 - link:./elastic-load-balancing+.html[Elastic Load Balancing]
 - link:./cloudwatch.html[Amazon CloudWatch]
