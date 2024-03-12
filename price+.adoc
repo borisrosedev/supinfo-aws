@@ -44,7 +44,8 @@ AWS s'engage à proposer en permanence de nouveaux services et fonctionnalités 
 
 == Éléments du coût total de possession (TCO) :
 
-Le coût total de possession (TCO) est un concept important à comprendre lors de l'évaluation de l'impact financier d'une solution informatique, y compris l'utilisation des services AWS. Voici les principaux éléments du TCO à prendre en compte lors de l'analyse des coûts liés à l'utilisation des services AWS :
+Le coût total de possession (TCO) est un concept important à comprendre lors de l'évaluation de l'impact financier d'une solution informatique, y compris l'utilisation des services AWS. 
+
 
 == Coûts directs :
 

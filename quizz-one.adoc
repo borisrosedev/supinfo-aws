@@ -1,0 +1,235 @@
+= Quiz 1
+
+== Question 1 
+
+Auto Scaling ajuste ... la capacité des instances ... en fonction de la ... 
+
+Il peut ... ou ... le nombre d'... en fonction de ... prédéfinies.
+
+=== Réponse
+
+Auto Scaling ajuste automatiquement la capacité des instances EC2 en fonction de la demande. 
+
+Il peut augmenter ou diminuer le nombre d'instances en fonction de règles prédéfinies.
+
+
+== Question 1 bis 
+
+AWS recommande d'appliquer le principe du ... privilège, ce qui signifie accorder à chaque utilisateur, groupe ou .. les autorisations ... nécessaires pour accomplir leurs ... . 
+
+=== Réponse
+
+AWS recommande d'appliquer le principe du moindre privilège, ce qui signifie accorder à chaque utilisateur, groupe ou rôle les autorisations minimales nécessaires pour accomplir leurs tâches. 
+
+== Question 1 ter
+
+
+Vrai ou Faux ?
+
+Elastic Beanstalk permet aux développeurs de déployer rapidement des applications web en quelques clics ou en utilisant la ligne de commande AWS (CLI). 
+
+=== Réponse 
+
+Vrai
+
+== Question 2
+
+La tarification peut varier en fonction:
+* du type de ...
+* de la r...
+* de la ... de  ... transférées
+* de la ... d'utilisation, 
+* etc.
+
+=== Réponse
+
+La tarification peut varier en fonction:
+[%step]
+* du type de service
+* de la région
+* de la quantité de données transférées
+* de la fréquence d'utilisation, 
+* etc.
+
+
+== Question 2 bis 
+
+Les ... de stockage sur site (...-...) sont des ... de stockage de données qui sont ... et ... localement par une organisation sur ses propres serveurs et dans ses propres ..., par opposition aux solutions de stockage ... qui sont gérées par des fournisseurs de services cloud externes. 
+
+=== Réponse 
+
+Les systèmes de stockage sur site (on-premises) sont des infrastructures de stockage de données qui sont hébergées et gérées localement par une organisation sur ses propres serveurs et dans ses propres centres de données, par opposition aux solutions de stockage cloud qui sont gérées par des fournisseurs de services cloud externes. 
+
+
+== Question 2 ter 
+
+
+Les services cloud offrent une ... permettant d'... automatiquement la capacité en fonction de la demande, ce qui permet d'... les coûts et de répondre efficacement aux ... de charge.
+
+=== Réponse 
+
+Les services cloud offrent une élasticité permettant d'ajuster automatiquement la capacité en fonction de la demande, ce qui permet d'optimiser les coûts et de répondre efficacement aux pics de charge.
+
+== Question 3
+
+Une architecture ... désigne une conception qui intègre des éléments de ... ou de réplication pour assurer la ... et la résilience des systèmes. 
+
+
+=== ...
+
+L'objectif principal est d'éviter les interruptions de service dues à:
+[%step]
+* des pannes ...
+* des ... humaines
+* des catastrophes ...
+* d'autres ... .
+
+=== Réponse 
+
+
+Dans le cadre de l'architecture AWS (Amazon Web Services), une architecture redondante désigne une conception qui intègre des éléments de duplication ou de réplication pour assurer la disponibilité et la résilience des systèmes. 
+
+=== ...
+
+L'objectif principal est d'éviter les interruptions de service dues à:
+[%step]
+* des pannes matérielles
+* des erreurs humaines
+* des catastrophes naturelles
+* d'autres incidents.
+
+
+== Question 3 bis 
+
+Les zones de disponibilité offrent une ... physique pour garantir une haute disponibilité et une ... aux ... au sein d'une ... AWS.
+
+=== Réponse 
+
+Les zones de disponibilité offrent une isolation physique pour garantir une haute disponibilité et une tolérance aux pannes au sein d'une région AWS.
+
+
+== Question 4
+
+L'expression "A... G..." fait généralement référence aux ... ou ... accordées à des ... (comme des utilisateurs, des groupes d'utilisateurs ou des ..) pour accéder à des ressources AWS spécifiques. 
+
+=== Réponse 
+
+L'expression "access grant" fait généralement référence aux autorisations ou permissions accordées à des entités (comme des utilisateurs, des groupes d'utilisateurs ou des rôles) pour accéder à des ressources AWS spécifiques. 
+
+== Question 4 bis
+
+Concernant, EC2, Les instances ... ne sont pas garanties pour une durée d'exécution ... et sont donc mieux adaptées aux charges de travail ... aux ....
+
+=== Réponse
+
+Cela signifie que les instances Spot ne sont pas garanties pour une durée d'exécution continue et sont donc mieux adaptées aux charges de travail tolérantes aux interruptions.
+
+
+== Question 5
+
+EC2 permet aux utilisateurs de louer des serveurs ... dans le ...,  appelés ...
+
+=== Réponse
+
+EC2 permet aux utilisateurs de louer des serveurs virtuels dans le cloud, appelés instances. 
+
+== Question 5 bis 
+
+La bande passante fait référence à la ... ... de données qui peuvent être transférées d'un ... à un autre dans un ... de ... donné. 
+
+=== Réponse 
+
+La bande passante fait référence à la quantité maximale de données qui peuvent être transférées d'un point à un autre dans un laps de temps donné. 
+
+== Question 6
+
+La ... se réfère à la capacité d'un système à s'... et à gérer une augmentation de la charge de travail de manière ... 
+
+=== ...
+
+Cela implique généralement d'ajuster la ... des ressources (comme les serveurs, les bases de données, etc.) en fonction de la demande, que ce soit:
+[%step]
+* en ... la ... pour gérer une ... de travail croissante 
+* en diminuant la ... lorsqu'elle n'est plus ...
+
+=== Réponse 
+
+La scalabilité se réfère à la capacité d'un système à s'adapter et à gérer une augmentation de la charge de travail de manière transparente. 
+
+=== ...
+
+Cela implique généralement d'ajuster la taille des ressources (comme les serveurs, les bases de données, etc.) en fonction de la demande, que ce soit:
+[%step]
+* en augmentant la capacité pour gérer une charge de travail croissante 
+* en diminuant la capacité lorsqu'elle n'est plus nécessaire.
+
+=== ...
+
+
+
+== Question 7  
+
+Dans le contexte d'AWS, la scalabilité peut être réalisée à travers divers services tels que :
+[%step]
+* ... pour les serveurs virtuels,
+* ... pour les bases de données relationnelles,
+* d'autres services de ... et de ... qui peuvent être ajustés dynamiquement en fonction des besoins.
+
+=== Réponse
+
+Dans le contexte d'AWS, la scalabilité peut être réalisée à travers divers services tels que :
+[%step]
+* EC2 (Elastic Compute Cloud) pour les serveurs virtuels,
+* RDS (Relational Database Service) pour les bases de données relationnelles,
+* d'autres services de stockage et de calcul qui peuvent être ajustés dynamiquement en fonction des besoins.
+
+
+
+== Question 8
+
+AWS propose un ... de paiement à l'..., ce qui signifie que les ... paient uniquement pour les services cloud qu'ils ..., sur une base ... ou à la .... 
+
+
+=== Réponse
+
+AWS propose un modèle de paiement à l'utilisation, ce qui signifie que les clients paient uniquement pour les services cloud qu'ils consomment, sur une base horaire ou à la demande. 
+
+
+== Question 9
+
+Les dépenses en capital impliquent généralement des ... initiaux importants pour:
+* l'achat d'..., 
+* d'... physiques 
+* de ... informatiques, 
+
+=== Réponse
+
+Les dépenses en capital impliquent généralement des investissements initiaux importants pour:
+[%step]
+* l'achat d'équipements, 
+* d'infrastructures physiques 
+* de ressources informatiques, 
+
+
+== Question 9 bis
+
+AWS propose des ... en ligne pour estimer les coûts.
+
+=== Réponse
+
+AWS propose des calculatrices en ligne pour estimer les coûts.
+
+
+== Question 10
+
+Auto Scaling garantit que la capacité de ... s'adapte ... à la charge de travail, améliorant l'efficacité et la ... .
+
+
+=== Réponse 
+
+Auto Scaling garantit que la capacité de calcul s'adapte dynamiquement à la charge de travail, améliorant l'efficacité et la résilience.
+
+
+
+
+

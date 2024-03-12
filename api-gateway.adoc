@@ -2,8 +2,12 @@
 
 == Introduction
 
-Amazon API Gateway est un service de gestion des API fourni par Amazon Web Services (AWS). Il permet aux développeurs de créer, déployer, gérer et sécuriser des API à grande échelle. 
-
+Amazon API Gateway est un service de gestion des API fourni par Amazon Web Services (AWS). Il permet aux développeurs de:
+[%step]
+* créer, 
+* déployer, 
+* gérer
+* sécuriser des API à grande échelle. 
 
 == Création d'API RESTful et WebSocket : 
 
@@ -38,9 +42,17 @@ Vous pouvez configurer différents mécanismes d'authentification et d'autorisat
 * l'intégration avec Amazon Cognito, 
 * etc.
 
+=== ...
+
+link:./cognito.html[En savoir plus sur Amazon Cognito]
+
 == Contrôle d'accès et limitations de taux : 
 
-API Gateway offre des fonctionnalités de contrôle d'accès et de gestion des limitations de taux pour contrôler l'accès à vos API et prévenir les attaques de déni de service.
+API Gateway offre des fonctionnalités de contrôle d'accès et de gestion des limitations de taux pour:
+[%step]
+* contrôler l'accès à vos API
+* prévenir les attaques de déni de service.
+
 
 == Suivi et surveillance : 
 

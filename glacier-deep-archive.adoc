@@ -1,0 +1,65 @@
+=== AWS Glacier Deep Archive
+
+== Introduction
+
+AWS Glacier est un service de stockage d'objets à long terme, extrêmement peu coûteux et hautement durable, fourni par Amazon Web Services. 
+
+=== ...
+
+Il est principalement conçu pour stocker des données qui ne sont pas souvent accédées et qui nécessitent une rétention à long terme pour des raisons de 
+[%step]
+* conformité, 
+* de sauvegarde
+* d'archivage. 
+
+== Glacier Deep Archive 
+
+Glacier Deep Archive est une classe de stockage encore plus économique introduite ultérieurement pour les données qui sont rarement accédées, mais doivent être conservées pour des périodes encore plus longues.
+
+
+
+== Stockage d'objets à long terme :
+
+Glacier est conçu pour stocker des objets et des données à long terme, avec des options de récupération différée. 
+
+Il est idéal pour les données qui ne nécessitent pas un accès immédiat ou fréquent, mais qui doivent être conservées pendant une longue période pour des raisons réglementaires, de conformité ou de sauvegarde.
+
+== Tarification basée sur l'utilisation :
+
+Glacier offre un modèle de tarification basé sur l'utilisation, ce qui signifie que vous ne payez que pour ce que vous utilisez. 
+
+=== ...
+
+Les frais sont basés sur la quantité de données stockées, les demandes de récupération de données et les transferts de données sortants.
+
+== Récupération différée :
+
+L'une des caractéristiques clés de Glacier est la récupération différée. 
+
+=== ...
+
+Lorsque vous souhaitez récupérer des données stockées dans Glacier, vous pouvez spécifier une option de récupération standard (3-5 heures) ou une option de récupération accélérée (1-5 minutes) moyennant des frais supplémentaires.
+
+== Glacier Deep Archive :
+
+Glacier Deep Archive est une classe de stockage encore moins chère introduite par AWS pour les données qui sont rarement accédées et qui nécessitent une rétention à très long terme. 
+
+=== ...
+
+Cette classe de stockage est particulièrement adaptée aux données qui doivent être conservées pendant des décennies, voire plus longtemps, mais qui peuvent être rarement ou jamais récupérées.
+
+=== ...
+
+== Durabilité et disponibilité :
+
+Glacier offre une durabilité élevée et une disponibilité élevée pour les données stockées. 
+
+=== ...
+
+Les données sont réparties sur plusieurs installations et sont conçues pour être hautement résilientes contre les pannes matérielles ou les pertes de données.
+
+
+
+
+
+

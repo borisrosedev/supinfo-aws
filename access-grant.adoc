@@ -1,0 +1,80 @@
+= Access Grant
+
+L'expression "access grant" fait généralement référence aux autorisations ou permissions accordées à des entités (comme des utilisateurs, des groupes d'utilisateurs ou des rôles) pour accéder à des ressources AWS spécifiques. 
+
+== IAM (Identity and Access Management) : 
+
+IAM est le service d'AWS qui gère les accès aux ressources AWS de manière sécurisée. 
+
+=== ...
+
+Dans IAM, vous pouvez:
+[%step]
+* créer des politiques d'accès qui définissent les actions autorisées sur les ressources AWS
+* attacher ces politiques à des utilisateurs, des groupes ou des rôles.
+
+== Politiques d'accès IAM : 
+
+Une politique d'accès IAM est un document JSON qui définit les autorisations pour une ou plusieurs actions sur des ressources AWS spécifiques. 
+
+=== ...
+
+Les politiques d'accès peuvent être attachées à des utilisateurs, des groupes ou des rôles IAM. 
+
+=== ...
+
+Elles définissent quelles actions peuvent être effectuées sur quelles ressources.
+
+
+== Attribution des politiques d'accès : 
+
+Les politiques d'accès IAM peuvent être attachées à différentes entités dans IAM :
+
+=== Aux utilisateurs individuels : 
+
+Vous pouvez attacher des politiques directement aux utilisateurs pour définir leurs autorisations.
+
+
+=== Aux groupes IAM : 
+
+Vous pouvez créer des groupes dans IAM et attacher des politiques à ces groupes. 
+
+=== ...
+
+Les utilisateurs ajoutés à un groupe héritent alors des autorisations définies par la politique du groupe.
+
+
+=== Aux rôles IAM : 
+
+Les rôles IAM sont des entités qui peuvent être temporairement assumées par des utilisateurs, des services AWS ou des entités externes. 
+
+=== ...
+
+Vous pouvez attacher des politiques à des rôles pour définir les autorisations lorsqu'un rôle est assumé.
+
+=== ...
+
+=== Gestion fine des accès : 
+
+Avec IAM, vous pouvez spécifier des autorisations au niveau:
+[%step]
+* des actions
+* des ressources 
+
+=== ...
+
+et même des conditions. 
+
+=== ...
+
+Cela permet une gestion fine des accès, où vous pouvez contrôler précisément qui peut effectuer quelles actions sur quelles ressources, et dans quelles conditions.
+
+
+== Principe du moindre privilège : 
+
+AWS recommande d'appliquer le principe du moindre privilège, ce qui signifie accorder à chaque utilisateur, groupe ou rôle les autorisations minimales nécessaires pour accomplir leurs tâches. 
+
+=== ...
+
+Cela contribue à réduire les risques de sécurité en limitant l'étendue des autorisations.
+

@@ -15,13 +15,7 @@ EC2 est fondamental pour le déploiement d'applications, qu'il s'agisse:
 * de traitement par lots,
 * etc.
 
-== Question 1
 
-EC2 permet aux utilisateurs de louer des serveurs ... appelés ...
-
-=== Réponse
-
-EC2 permet aux utilisateurs de louer des serveurs virtuels dans le cloud, appelés instances. 
 
 
 

@@ -1,0 +1,68 @@
+= Amazon CloudWatch (Approfondissement)
+
+== CloudWatch Alarms 
+
+Les CloudWatch Alarms sont des mécanismes de surveillance qui permettent de surveiller les métriques de performances et d'utilisations dans Amazon CloudWatch. 
+
+=== ...
+
+Vous pouvez configurer des alarmes pour surveiller une métrique spécifique et définir des seuils pour cette métrique. 
+
+
+Si la métrique dépasse le seuil spécifié pendant une période de temps définie, l'alarme est déclenchée, ce qui peut entraîner l'envoi de notifications ou l'exécution d'actions automatisées.
+
+== CloudWatch Triggers :
+
+
+CloudWatch Triggers est un concept plus général et n'est pas une fonctionnalité spécifique de CloudWatch. 
+
+
+=== ...
+
+
+Cependant, dans certains contextes, il peut faire référence à l'utilisation de CloudWatch Alarms ou de CloudWatch Events pour déclencher des actions automatisées en réponse à des événements spécifiques, tels que:
+[%step]
+* le déclenchement d'une alarme
+* la réception d'un événement CloudWatch.
+
+== CloudWatch Logs :
+
+CloudWatch Logs est un service de surveillance et de gestion des journaux dans AWS. 
+
+=== ...
+
+Il permet de collecter, stocker et analyser les journaux générés par divers services AWS et applications exécutées sur AWS. 
+
+=== ...
+
+Vous pouvez 
+[%step]
+* créer des groupes de journaux pour organiser vos journaux, 
+* configurer des flux de journaux pour envoyer des journaux à CloudWatch Logs
+* rechercher, filtrer et analyser vos journaux à l'aide de requêtes CloudWatch Logs Insights.
+
+== CloudWatch Events :
+
+CloudWatch Events est un service de surveillance et de gestion des événements dans AWS. 
+
+
+=== ...
+
+
+Il permet de surveiller et de réagir à des changements dans les services AWS et les ressources AWS. 
+
+=== ...
+
+Vous pouvez 
+[%step]
+* créer des règles de déclenchement pour définir des conditions basées sur des événements spécifiques
+* configurer des cibles pour définir des actions à exécuter lorsque les règles de déclenchement sont satisfaites. 
+
+=== ...
+
+Les événements CloudWatch peuvent être utilisés pour déclencher des actions automatisées, telles que:
+[%step]
+* l'exécution de fonctions Lambda, 
+* l'envoi de notifications SNS, 
+* le démarrage/arrêt d'instances EC2.
+

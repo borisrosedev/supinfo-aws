@@ -1,0 +1,73 @@
+= VPC (Virtual Private Cloud) :
+
+== Définition
+
+Amazon VPC permet de créer un réseau virtuel isolé dans le cloud AWS. 
+
+Cela permet aux utilisateurs de:
+[%step]
+* définir leur propre plage d'adresses IP, 
+* de configurer des sous-réseaux, 
+* de créer des tables de routage
+* de contrôler les règles de sécurité. 
+
+=== ...
+
+Les utilisateurs peuvent déployer des ressources AWS, telles que:
+[%step]
+* des instances EC2 
+* des bases de données RDS,
+
+=== ...
+
+dans leur VPC, ce qui leur permet de bénéficier:
+[%step]
+* de l'isolation réseau 
+* de la sécurité.
+
+== VPC Endpoints :
+
+Les VPC Endpoints permettent aux instances EC2 dans un VPC d'accéder à certains services AWS (tels que S3 et DynamoDB) sans passer par Internet. 
+
+=== ...
+
+Cela permet d'assurer un accès privé aux services AWS depuis le VPC, améliorant ainsi la sécurité et la performance.
+
+== VPC Peering :
+
+VPC Peering permet de connecter deux VPC distincts de manière sécurisée, ce qui permet aux instances dans chaque VPC de communiquer entre elles à l'aide de leurs adresses IP privées. 
+
+=== ...
+
+Cela permet :
+[%step]
+* d'étendre les réseaux virtuels 
+* de faciliter la communication entre les ressources déployées dans des VPC différents.
+
+
+== Network Access Control List (NACL) :
+
+Les NACL sont des pare-feu au niveau du sous-réseau qui agissent comme une première ligne de défense pour contrôler le trafic entrant et sortant d'un sous-réseau dans un VPC. 
+
+=== ...
+
+Les NACL permettent de définir des règles de sécurité basées sur les adresses IP source et de destination, ainsi que sur les ports.
+
+
+== Site-to-Site VPN :
+
+Le VPN Site-to-Site permet de créer une connexion sécurisée et chiffrée entre le réseau local d'une entreprise et un VPC dans AWS. 
+
+=== ...
+
+Cela permet aux utilisateurs d'étendre leur infrastructure sur site vers le cloud AWS de manière sécurisée, en établissant une connectivité réseau fiable et chiffrée.
+
+== AWS Direct Connect :
+
+AWS Direct Connect permet d'établir une connexion réseau dédiée et privée entre le réseau local d'une entreprise et un VPC dans AWS, contournant ainsi Internet. 
+
+=== ...
+
+Cela permet une connectivité réseau à faible latence, haute bande passante et hautement sécurisée entre le réseau local et les ressources AWS dans le cloud.
+
+

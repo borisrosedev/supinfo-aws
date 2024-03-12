@@ -11,7 +11,12 @@ Les systèmes de stockage sur site offrent un contrôle complet sur les données
 
 Cela peut être particulièrement important pour les entreprises ayant des exigences strictes en matière de confidentialité, de conformité ou de réglementation.
 
-== Personnalisation : En gérant leur propre infrastructure de stockage, les organisations ont la possibilité de personnaliser leurs systèmes en fonction de leurs besoins spécifiques en termes de performances, de capacité, de redondance, etc. 
+== Personnalisation : 
+
+En gérant leur propre infrastructure de stockage, les organisations ont la possibilité de personnaliser leurs systèmes en fonction de leurs besoins spécifiques en termes de performances, de capacité, de redondance, etc. 
+
+
+=== ...
 
 Cela peut inclure:
 [%step]

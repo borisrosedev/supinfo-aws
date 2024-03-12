@@ -57,7 +57,17 @@ Cela inclut:
 
 === ...
 
-Les services AWS comme AWS Identity and Access Management (IAM), Amazon Virtual Private Cloud (VPC), AWS Key Management Service (KMS), Amazon Inspector, et AWS Shield peuvent être utilisés pour renforcer la sécurité.
+Les services AWS comme :
+[%step]
+* AWS Identity and Access Management (IAM), 
+* Amazon Virtual Private Cloud (VPC), 
+* AWS Key Management Service (KMS), 
+* Amazon Inspector, 
+* AWS Shield 
+
+=== ... 
+
+peuvent être utilisés pour renforcer la sécurité.
 
 
 == Évolutivité (Scalability) :
@@ -66,11 +76,25 @@ L'évolutivité se concentre sur la capacité d'un système à s'adapter à la c
 
 === ...
 
-Cela implique la conception de systèmes qui peuvent évoluer de manière transparente en ajoutant ou en supprimant des ressources en fonction des besoins, et en utilisant des architectures distribuées.
+Cela implique la conception de systèmes qui peuvent évoluer de manière transparente :
+[%step]
+* en ajoutant 
+* en supprimant des ressources en fonction des besoins,
+* en utilisant des architectures distribuées.
 
 === ...
 
-Les services AWS comme Amazon EC2 Auto Scaling, Amazon S3, Amazon DynamoDB, Amazon RDS, et Amazon ElastiCache peuvent être utilisés pour améliorer l'évolutivité.
+Les services AWS comme:
+[%step]
+* Amazon EC2 Auto Scaling, 
+* Amazon S3, 
+* Amazon DynamoDB, 
+* Amazon RDS, 
+* Amazon ElastiCache 
+
+=== ...
+
+peuvent être utilisés pour améliorer l'évolutivité.
 
 == Rentabilité (Cost Optimization) :
 
@@ -78,7 +102,9 @@ La rentabilité se concentre sur l'optimisation des coûts liés à l'exploitati
 
 === ...
 
-Cela implique la sélection des ressources les plus rentables, l'utilisation efficace des ressources disponibles, la surveillance des coûts et l'identification des opportunités d'optimisation.
+Cela implique : 
+[%stpe]
+la sélection des ressources les plus rentables, l'utilisation efficace des ressources disponibles, la surveillance des coûts et l'identification des opportunités d'optimisation.
 
 === ...
 

@@ -1,0 +1,42 @@
+= Amazon S3 Intelligent-Tiering 
+
+Amazon S3 Intelligent-Tiering est une classe de stockage d'objets dans Amazon Simple Storage Service (S3) qui utilise une approche intelligente pour gérer automatiquement le placement des données entre deux niveaux de stockage en fonction de leurs modèles d'accès. 
+
+== Deux niveaux de stockage :
+
+Amazon S3 Intelligent-Tiering comprend deux niveaux de stockage :
+
+=== Accès fréquent : 
+
+Les données sont stockées dans la classe de stockage S3 Standard, qui offre une faible latence et une haute disponibilité pour les données auxquelles vous accédez régulièrement.
+
+
+=== Accès peu fréquent : 
+
+Les données sont déplacées automatiquement vers la classe de stockage S3 Standard-IA (Infrequent Access), qui offre un coût de stockage plus bas que S3 Standard, mais avec des frais de récupération légèrement plus élevés.
+
+
+== Analyse des modèles d'accès :
+
+Amazon S3 Intelligent-Tiering surveille continuellement les modèles d'accès aux données. 
+
+=== ...
+
+Il analyse la fréquence à laquelle les objets sont accédés et utilise ces informations pour déterminer quels objets doivent être stockés dans chaque niveau de stockage.
+
+
+== Déplacement automatique des données :
+
+En fonction des modèles d'accès détectés, Amazon S3 Intelligent-Tiering déplace automatiquement les données entre les niveaux de stockage:
+
+=== ...
+
+Ceci, garantissant que les objets les plus souvent accédés sont stockés dans la classe de stockage S3 Standard tandis que les objets moins souvent accédés sont déplacés vers la classe de stockage S3 Standard-IA.
+
+== Optimisation des coûts et de la performance :
+
+L'objectif principal de Amazon S3 Intelligent-Tiering est d'optimiser à la fois les coûts de stockage et les performances en plaçant automatiquement les données dans le niveau de stockage approprié en fonction de leur utilisation. 
+
+=== ...
+
+Cela permet aux utilisateurs de réduire les coûts de stockage tout en maintenant un accès rapide aux données fréquemment utilisées.

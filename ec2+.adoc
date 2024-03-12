@@ -14,6 +14,7 @@ Il offre une capacité de calcul évolutive dans le cloud, permettant aux utilis
 
 Amazon EC2 permet aux utilisateurs de provisionner rapidement et facilement des instances de serveurs virtuels (connus sous le nom d'« instances EC2 ») dans le cloud. 
 
+=== ...
 
 Les instances EC2 peuvent être lancées à partir d'une vaste gamme de types d'instances, chacun offrant différentes combinaisons :
 [%step]

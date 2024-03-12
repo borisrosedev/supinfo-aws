@@ -1,0 +1,54 @@
+= Les instances spot 
+
+== Introduction
+
+Les instances Spot sont des instances de calcul EC2 (Elastic Compute Cloud) dans AWS qui permettent aux utilisateurs d'acheter une capacité de calcul excédentaire à des tarifs considérablement réduits par rapport aux tarifs standards des instances EC2. 
+
+=== ...
+
+Ces instances sont appelées "Spot" en référence à la notion de marché "spot" où les prix fluctuent en fonction de l'offre et de la demande.
+
+=== ...
+
+== Prix basés sur l'offre et la demande :
+
+Les prix des instances Spot varient en fonction de l'offre et de la demande sur la plateforme AWS. 
+
+=== ...
+
+Lorsque la capacité excédentaire est disponible, les prix peuvent être significativement inférieurs à ceux des instances EC2 à la demande. 
+
+=== ...
+
+Cependant, les prix peuvent augmenter lorsque la demande pour cette capacité excédentaire augmente.
+
+== Utilisation de la capacité excédentaire :
+
+Les instances Spot sont particulièrement adaptées aux charges de travail flexibles et tolérantes aux interruptions. 
+
+=== ...
+
+Elles sont idéales pour les applications qui peuvent être interrompues ou arrêtées temporairement sans affecter négativement l'application, comme:
+[%step]
+* les charges de travail de traitement par lots, 
+* les tests de développement, 
+* l'analyse de données
+* les charges de travail de calcul haute performance (HPC).
+
+== Interruptions possibles :
+
+Étant donné que les instances Spot sont basées sur la capacité excédentaire, AWS peut les interrompre avec un préavis minimal (généralement deux minutes) si la capacité est nécessaire pour des instances EC2 à la demande. 
+
+=== ...
+
+Cela signifie que les instances Spot ne sont pas garanties pour une durée d'exécution continue et sont donc mieux adaptées aux charges de travail tolérantes aux interruptions.
+
+== Gestion de l'interruption :
+
+
+AWS fournit des outils et des fonctionnalités pour aider à gérer les interruptions d'instances Spot, notamment:
+[%step]
+* des avis d'interruption, 
+* la possibilité de spécifier des instances de secours
+* la possibilité de gérer automatiquement les interruptions via des stratégies de remplacement ou de réattribution.
+

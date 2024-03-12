@@ -1,0 +1,80 @@
+= Amazon Simple Notification Service 
+
+== Définition
+
+Amazon Simple Notification Service (SNS) est un service de messagerie entièrement géré qui permet aux applications :
+[%step]
+* de publier, 
+* de souscrire 
+* de diffuser des messages 
+
+=== ...
+
+à partir de microservices, de systèmes distribués et de serveurs sans avoir à gérer l'infrastructure sous-jacente. 
+
+
+
+== Publier et Souscrire :
+
+SNS facilite la communication entre les différentes parties d'une application ou entre applications. 
+
+=== ...
+
+Les applications peuvent publier des messages sur un sujet, et d'autres applications peuvent s'abonner à ce sujet pour recevoir ces messages.
+
+=== Modèles de Messagerie :
+
+
+SNS prend en charge différents modèles de messagerie, notamment:
+[%step]
+* le pub/sub (publication/abonnement), 
+* les files d'attente, 
+* les points de terminaison pour des protocoles spécifiques (comme HTTP/HTTPS, SMS, email, etc.), ce qui permet une flexibilité dans la façon dont les messages sont livrés.
+
+== Protocoles de Livraison :
+
+SNS peut livrer des messages via:
+[%step]
+* divers protocoles de communication, 
+* tels que HTTP/HTTPS, 
+* Amazon SQS (Simple Queue Service), 
+* Amazon Lambda, 
+* courrier électronique, 
+* messages texte (SMS), 
+* notifications mobiles, 
+* etc.
+
+== Topic (Sujet) :
+
+Un sujet SNS est un canal logique vers lequel les messages sont publiés et à partir duquel les abonnés reçoivent les messages. 
+
+=== ...
+
+Les abonnés peuvent être des points de terminaison (endpoints) de différents types, selon le protocole de livraison choisi.
+
+== Filtrage de Message :
+
+SNS prend en charge le filtrage de messages basé sur des filtres d'attributs. 
+
+=== ...
+
+Cela permet d'envoyer des messages à des abonnés spécifiques en fonction des critères spécifiés, ce qui est utile pour la personnalisation des messages.
+
+
+
+=== Intégration avec d'autres Services AWS :
+
+SNS est souvent utilisé en combinaison avec d'autres services AWS pour créer des architectures de microservices et des systèmes distribués. 
+
+=== ...
+
+Par exemple, il peut être utilisé pour déclencher des fonctions AWS Lambda en réponse à des événements spécifiques.
+
+== Sécurité :
+
+SNS prend en charge la gestion des accès à l'aide d'AWS Identity and Access Management (IAM) pour contrôler les actions autorisées sur les sujets SNS. 
+
+=== ...
+
+De plus, les messages peuvent être chiffrés en transit via HTTPS.
+

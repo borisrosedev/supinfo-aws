@@ -1,0 +1,70 @@
+= Web Application Firewall
+
+== Définition
+
+Un Web Application Firewall (WAF) est une application de sécurité qui:
+[%step]
+* filtre, 
+* surveille
+* bloque le trafic HTTP/HTTPS entrant et sortant d'une application web, 
+
+=== ...
+
+en détectant et en bloquant les menaces en ligne telles que:
+[%step]
+* les attaques par injection SQL, 
+* les attaques de scripts entre sites (XSS), 
+* les attaques par force brute
+* etc.
+
+=== ...
+
+Dans le contexte d'Amazon Web Services (AWS), AWS propose un service appelé AWS WAF qui fournit un pare-feu d'application web géré et évolutif. 
+
+== Protection des applications web :
+
+AWS WAF offre une protection contre une variété de menaces en ligne et d'attaques ciblant les applications web hébergées sur AWS. 
+
+=== ...
+
+Il permet aux utilisateurs de définir des règles de sécurité personnalisées pour contrôler et filtrer le trafic HTTP/HTTPS entrant et sortant de leurs applications web.
+
+=== Filtrage des requêtes :
+
+Les utilisateurs peuvent configurer des règles de filtrage basées sur des conditions telles que:
+[%step]
+* les adresses IP source, 
+* les en-têtes HTTP, 
+* les paramètres de requête 
+* les chaînes de caractères de requête. 
+
+=== ...
+
+Cela permet de bloquer les requêtes malveillantes avant qu'elles n'atteignent l'application web.
+
+== Protection contre les attaques DDoS :
+
+AWS WAF peut également être utilisé en conjonction avec Amazon CloudFront pour offrir une protection supplémentaire contre les attaques par déni de service distribué (DDoS), en filtrant le trafic malveillant avant qu'il n'atteigne l'origine de l'application.
+
+=== Intégration avec d'autres services AWS :
+
+AWS WAF s'intègre étroitement avec d'autres services AWS tels que:
+[%step]
+* Amazon CloudFront, 
+* AWS Application Load Balancer (ALB), 
+* Amazon API Gateway 
+* AWS AppSync
+
+=== ...
+
+permettant une protection efficace des applications web déployées sur ces services.
+
+== Facilité de configuration et de gestion :
+
+AWS WAF est entièrement géré par AWS, ce qui signifie que les utilisateurs n'ont pas besoin de gérer l'infrastructure sous-jacente. 
+
+
+=== ...
+
+Il est facile à configurer et à gérer via la console AWS Management Console, l'interface de ligne de commande AWS (CLI) ou les API AWS.
+

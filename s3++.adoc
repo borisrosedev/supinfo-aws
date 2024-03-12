@@ -1,0 +1,52 @@
+= S3 (Approfondissement)
+
+== Amazon S3 Intelligent-Tiering :
+
+Amazon S3 Intelligent-Tiering est une classe de stockage d'objets qui analyse et déplace automatiquement les données entre deux niveaux de stockage en fonction des modèles d'accès. 
+
+=== ...
+
+Il utilise une combinaison des classes de stockage S3 Standard et S3 Standard-IA (Infrequent Access) pour optimiser les coûts sans sacrifier les performances.
+
+=== ...
+
+link:./intelligent-tiering.html[En savoir plus sur S3 Intelligent-Tiering]
+
+== Amazon S3 Standard-Infrequent Access (IA) :
+
+S3 Standard-IA est une classe de stockage conçue pour stocker des données que vous n'accédez pas fréquemment, mais que vous devez pouvoir récupérer rapidement lorsque vous en avez besoin. 
+
+=== ...
+
+Les frais de stockage sont inférieurs à ceux de S3 Standard, mais les frais de récupération peuvent être légèrement plus élevés.
+
+== S3 Object Lock :
+
+S3 Object Lock est une fonctionnalité qui permet de protéger les données stockées dans Amazon S3 contre la suppression ou la modification involontaires. 
+
+=== ...
+
+Vous pouvez configurer des politiques de verrouillage pour définir des périodes de rétention pour les objets, ce qui garantit qu'ils ne peuvent pas être supprimés ou modifiés pendant cette période.
+
+
+== S3 Glacier Vault Lock :
+
+S3 Glacier Vault Lock est une fonctionnalité de gestion de la conformité qui permet de verrouiller des archives dans un coffre Glacier pendant une période de rétention spécifiée ou indéfiniment. 
+
+=== ...
+
+Cela garantit que les données d'archive ne peuvent pas être supprimées ou modifiées pendant la durée du verrouillage.
+
+
+== S3 Lifecycle Rules :
+
+Les règles de cycle de vie S3 sont des règles automatisées que vous pouvez configurer pour gérer vos objets Amazon S3 en fonction de leur durée de vie. 
+
+
+=== ...
+
+Vous pouvez utiliser les règles de cycle de vie pour:
+[%step]
+* migrer automatiquement des objets vers des classes de stockage moins chères,* les supprimer 
+* appliquer d'autres actions en fonction de critères spécifiés.
+
