@@ -1,0 +1,51 @@
+= Les répliques de lecture 
+
+
+== Introduction
+
+Les répliques de lecture, également appelées "read replicas" en anglais, sont des copies de lecture d'une base de données principale (ou "source") dans un système de base de données distribuée. 
+
+
+=== ...
+
+Elles sont utilisées principalement pour:
+[%step]
+* améliorer les performances de lecture
+* répartir la charge de requêtes sur la base de données.
+
+
+Voici comment fonctionnent généralement les répliques de lecture :
+
+== Réplication des données: 
+
+Les données de la base de données principale sont copiées de manière asynchrone vers les répliques de lecture. 
+
+=== ...
+
+Cette réplication peut être réalisée de différentes manières selon la configuration du système de base de données.
+
+== Lecture seule: 
+
+Les répliques de lecture sont configurées en lecture seule, ce qui signifie qu'elles ne peuvent pas être utilisées pour effectuer des opérations d'écriture telles que les insertions, les mises à jour ou les suppressions. 
+
+=== ...
+
+Elles ne servent qu'à répondre aux requêtes de lecture.
+
+== Amélioration des performances: 
+
+Les répliques de lecture peuvent être utilisées pour distribuer la charge de lecture entre plusieurs instances de base de données. 
+
+=== ...
+
+Cela permet d'améliorer les performances globales du système en répartissant la charge sur plusieurs serveurs.
+
+== Redondance et disponibilité: 
+
+En plus d'améliorer les performances, les répliques de lecture offrent également une redondance des données. 
+
+
+=== ...
+
+En cas de défaillance de la base de données principale, il est possible de basculer vers l'une des répliques de lecture pour continuer à fournir un accès aux données.
+

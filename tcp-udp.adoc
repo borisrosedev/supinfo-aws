@@ -1,0 +1,70 @@
+= Les requêtes TCP (Transmission Control Protocol) et UDP (User Datagram Protocol)
+:customcss: styles.css
+
+== Définition
+
+Celles-ci sont deux des protocoles de communication les plus couramment utilisés dans les réseaux informatiques pour transférer des données entre des ordinateurs. 
+
+Chacun de ces protocoles a ses propres caractéristiques et cas d'utilisation.
+
+
+== TCP (Transmission Control Protocol) :
+
+=== Fiabilité 
+
+TCP est un protocole orienté connexion, ce qui signifie qu'une connexion est établie avant que les données ne soient transférées. 
+
+Il garantit la fiabilité des données en s'assurant qu'elles sont reçues dans l'ordre correct et qu'aucune donnée n'est perdue en cours de route.
+
+=== Contrôle de flux 
+
+TCP utilise un mécanisme de contrôle de flux pour éviter la congestion du réseau. 
+
+Il adapte le débit de transmission en fonction de la capacité du réseau et de la disponibilité de la mémoire tampon.
+
+=== Latence 
+
+TCP peut introduire une certaine latence en raison de l'établissement de la connexion, de la gestion de l'état de la connexion et de la retransmission des données en cas de perte.
+
+=== Cas d'utilisation 
+
+TCP est couramment utilisé pour les applications qui nécessitent une communication fiable, telles que:
+
+[%step]
+* le transfert de fichiers
+* la navigation web
+* la messagerie électronique
+* les appels vidéo, etc.
+
+
+
+== UDP (User Datagram Protocol) :
+
+=== Non fiable 
+
+UDP est un protocole non orienté connexion, ce qui signifie qu'il n'établit pas de connexion avant de transférer des données. 
+
+Il ne garantit pas la fiabilité des données et ne fournit pas de mécanismes de contrôle de flux ni de retransmission en cas de perte.
+
+=== Faible latence 
+
+UDP est plus rapide que TCP car il évite les étapes d'établissement de la connexion et de gestion de l'état de la connexion. Cela en fait un choix idéal pour les applications qui ont besoin de faible latence, comme les jeux en ligne et la diffusion en temps réel.
+
+=== Cas d'utilisation  
+
+UDP est couramment utilisé pour les applications où la latence est critique et où la perte occasionnelle de données est acceptable. 
+
+Cela inclut les jeux en ligne, la voix sur IP (VoIP), la diffusion en continu, les systèmes de surveillance, etc.
+
+
+== En résumé
+
+En résumé, TCP et UDP sont deux protocoles de communication réseau largement utilisés, chacun adapté à des cas d'utilisation spécifiques. 
+
+[%step]
+* TCP est privilégié lorsque la fiabilité des données et la séquence sont essentielles
+* UDP est utilisé lorsque la latence et la rapidité sont prioritaires et que la perte occasionnelle de données est tolérable. 
+
+== Votre application 
+
+Le choix entre les deux dépend des exigences de votre application.

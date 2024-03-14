@@ -15,17 +15,13 @@
 - link:./ec2+.html[AWE EC2]
 - link:./lambda.html[AWS Lambda]
 - link:./elastic-beanstalk.html[AWS Elastic Beanstalk]
+
+=== Module 2 Partie 2
+
 - link:./s3+.html[AWS S3]
 - link:./efs.html[Amazon EFS]
 - link:./glacier.html[Amazon Glacier]
 - link:./ebs.html[Amazon EBS]
-
-=== Module 2 Partie 2
-
-- link:./rds+.html[Amazon RDS]
-- link:./dynamo-db.html[Amazon Dynamo DB]
-- link:./redshift.html[Amazon Redshift]
-- link:./aurora.html[Amazon Aurora]
 
 === Module 2 Partie 3
 
@@ -33,6 +29,16 @@
 - link:./cloudfront.html[Cloudfront]
 - link:./waf.html[WAF]
 - link:./subnet.html[Les sous-réseaux]
+
+=== Module 2 Partie 4
+
+- link:./rds+.html[Amazon RDS]
+- link:./dynamo-db.html[Amazon Dynamo DB]
+- link:./redshift.html[Amazon Redshift]
+- link:./aurora.html[Amazon Aurora]
+
+== Module 2 Partie 5
+
 - link:./autoscaling.html[Auto Scaling]
 - link:./elastic-load-balancing+.html[Elastic Load Balancing]
 - link:./cloudwatch.html[Amazon CloudWatch]

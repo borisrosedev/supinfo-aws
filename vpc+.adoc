@@ -39,7 +39,9 @@ AWS VPC offre des options pour connecter votre réseau VPC à votre réseau sur 
 Vous pouvez déployer vos ressources dans différentes zones de disponibilité (AZ) au sein d'une région AWS pour améliorer la haute disponibilité et la tolérance aux pannes.
 
 
-=== Sécurité : Vous pouvez utiliser des groupes de sécurité pour contrôler le trafic entrant et sortant de vos instances EC2, et configurer des listes de contrôle d'accès réseau (ACL) au niveau du sous-réseau.
+=== Sécurité : 
+
+Vous pouvez utiliser des groupes de sécurité pour contrôler le trafic entrant et sortant de vos instances EC2, et configurer des listes de contrôle d'accès réseau (ACL) au niveau du sous-réseau.
 
 
 == Composants d'un VPC :

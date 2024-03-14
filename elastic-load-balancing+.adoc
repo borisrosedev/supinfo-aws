@@ -58,7 +58,17 @@ Les load balancers ALB et NLB prennent en charge le routage avancé du trafic en
 
 == Intégration avec d'autres services AWS :
 
-Les load balancers ELB peuvent être intégrés avec d'autres services AWS, tels que Auto Scaling, Amazon ECS, Amazon EC2, AWS Lambda, etc., pour une gestion automatique et évolutive de la capacité des applications.
+Les load balancers ELB peuvent être intégrés avec d'autres services AWS, tels que:
+[%step]
+* Auto Scaling, 
+* Amazon ECS, 
+* Amazon EC2, 
+* AWS Lambda, 
+* etc., 
+
+=== ...
+
+pour une gestion automatique et évolutive de la capacité des applications.
 
 == Tarification :
 

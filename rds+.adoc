@@ -81,3 +81,20 @@ Amazon RDS offre des fonctionnalités de surveillance et de suivi des performanc
 * les transferts de données
 * d'autres services associés.
 
+
+== Multi-AZ Deployment
+
+
+Multi-AZ Deployment signifie le déploiement multi-zones de disponibilité. Cela est possible via RDS. Cela signifie que votre base de données est répliquée de manière synchrone dans une autre zone de disponibilité pour la redondance et la tolérance aux pannes. 
+
+
+Cela garantit une meilleure disponibilité et résilience de votre base de données.
+
+== Read Replicas 
+
+Les "Read Replicas" sont des répliques de lecture de votre base de données qui peuvent être utilisées pour équilibrer la charge de lecture, améliorer les performances de lecture et fournir des options de sauvegarde en cas de défaillance de la base de données principale.
+
+=== ...
+
+link:./read-replica.html[En savoir plus sur les Read Replicas]
+
