@@ -1,0 +1,13 @@
+= Questions
+
+== Q1
+
+L'expression "access grant" fait généralement référence ... ou ... accordées à des entités (comme des utilisateurs, des groupes d'utilisateurs ou des rôles) pour accéder à des ressources AWS spécifiques. 
+
+=== Réponse 
+
+L'expression "access grant" fait généralement référence aux autorisations ou permissions accordées à des entités (comme des utilisateurs, des groupes d'utilisateurs ou des rôles) pour accéder à des ressources AWS spécifiques.  
+
+
+== Q2
+

@@ -1,0 +1,22 @@
+= Questions
+
+== Q1
+
+Un .. Application Firewall (...AF) est une application de sécurité qui:
+[%step]
+* filtre, 
+* ...
+* bloque le trafic ... entrant et sortant d'une application ..., 
+
+=== Réponse
+
+Un Web Application Firewall (WAF) est une application de sécurité qui:
+[%step]
+* filtre, 
+* surveille
+* bloque le trafic HTTP/HTTPS entrant et sortant d'une application web, 
+
+== Q2
+
+
+=== Réponse

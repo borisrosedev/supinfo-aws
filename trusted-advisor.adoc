@@ -2,7 +2,12 @@
 
 == Définition
 
-AWS Trusted Advisor est un service proposé par Amazon Web Services (AWS) qui fournit des recommandations personnalisées pour optimiser les performances, améliorer la sécurité, réduire les coûts et augmenter la fiabilité de vos ressources AWS. 
+AWS Trusted Advisor est un service proposé par Amazon Web Services (AWS) qui fournit des recommandations personnalisées pour :
+[%step]
+* optimiser les performances, 
+* améliorer la sécurité, 
+* réduire les coûts
+* augmenter la fiabilité de vos ressources AWS. 
 
 
 === ...

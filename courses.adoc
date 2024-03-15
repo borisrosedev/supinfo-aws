@@ -48,7 +48,7 @@
 - link:./shared-responsability.html[Le modèle de responsabilité partagée d'AWS]
 - link:./iam+.html[AWS IAM]
 - link:./security-credentials.html[Les certificats de sécurité]
-- link:./truster-advisor.html[AWS Trusted Advisor]
+- link:./trusted-advisor.html[AWS Trusted Advisor]
 - link:./security-compliance.html[La conformité aux normes de sécurité]
 - link:./day-1-best-practices.html[Les meilleures pratiques lors de la création de votre compate AWS]
 
